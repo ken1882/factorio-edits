@@ -1,0 +1,701 @@
+
+{
+  "mods": 
+  [
+    
+    {
+      "name": "base",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-containers",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-industry",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-loaders",
+      "enabled": false
+    },
+    
+    {
+      "name": "aai-programmable-structures",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-programmable-vehicles",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-pv-crafting-group",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-signal-transmission",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-signals",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-chaingunner",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-flame-tank",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-flame-tumbler",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-hauler",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-ironclad",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-laser-tank",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-miner",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-warden",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-zones",
+      "enabled": true
+    },
+    
+    {
+      "name": "AbandonedRuins",
+      "enabled": true
+    },
+    
+    {
+      "name": "Actual_Craft_Time",
+      "enabled": true
+    },
+    
+    {
+      "name": "AircraftRealism",
+      "enabled": true
+    },
+    
+    {
+      "name": "alien-biomes",
+      "enabled": true
+    },
+    
+    {
+      "name": "artillery-bombardment-remote-reloaded",
+      "enabled": true
+    },
+    
+    {
+      "name": "artillery-equality",
+      "enabled": true
+    },
+    
+    {
+      "name": "AsphaltPaving",
+      "enabled": false
+    },
+    
+    {
+      "name": "blueprint_flip_and_turn",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobassembly",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobelectronics",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobenemies",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobequipment",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobgreenhouse",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobinserters",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblibrary",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblogistics",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobmining",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobmodules",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobores",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobplates",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobpower",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobrevamp",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobtech",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobvehicleequipment",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobwarfare",
+      "enabled": false
+    },
+    
+    {
+      "name": "Bottleneck",
+      "enabled": true
+    },
+    
+    {
+      "name": "bullet-trails",
+      "enabled": true
+    },
+    
+    {
+      "name": "cargo-ships",
+      "enabled": true
+    },
+    
+    {
+      "name": "cargo-ships-graphics",
+      "enabled": true
+    },
+    
+    {
+      "name": "CleanFloor",
+      "enabled": true
+    },
+    
+    {
+      "name": "combat-mechanics-overhaul",
+      "enabled": true
+    },
+    
+    {
+      "name": "creative-mod",
+      "enabled": true
+    },
+    
+    {
+      "name": "CreativeItems",
+      "enabled": false
+    },
+    
+    {
+      "name": "crude-artillery-ship",
+      "enabled": true
+    },
+    
+    {
+      "name": "crude-artillery-ship-graphics",
+      "enabled": true
+    },
+    
+    {
+      "name": "Dectorio",
+      "enabled": false
+    },
+    
+    {
+      "name": "DiscoScience",
+      "enabled": true
+    },
+    
+    {
+      "name": "EditorExtensions",
+      "enabled": true
+    },
+    
+    {
+      "name": "Enhanced_Map_Colors",
+      "enabled": true
+    },
+    
+    {
+      "name": "equipment-gantry",
+      "enabled": true
+    },
+    
+    {
+      "name": "even-distribution",
+      "enabled": true
+    },
+    
+    {
+      "name": "EvoGUI",
+      "enabled": true
+    },
+    
+    {
+      "name": "factoryplanner",
+      "enabled": true
+    },
+    
+    {
+      "name": "FactorySearch",
+      "enabled": true
+    },
+    
+    {
+      "name": "flib",
+      "enabled": true
+    },
+    
+    {
+      "name": "Flow Control",
+      "enabled": true
+    },
+    
+    {
+      "name": "FluidMustFlow",
+      "enabled": true
+    },
+    
+    {
+      "name": "grappling-gun",
+      "enabled": true
+    },
+    
+    {
+      "name": "HelicopterRevival",
+      "enabled": true
+    },
+    
+    {
+      "name": "Honk",
+      "enabled": true
+    },
+    
+    {
+      "name": "Hovercrafts",
+      "enabled": true
+    },
+    
+    {
+      "name": "InfiniteOresAndOil",
+      "enabled": true
+    },
+    
+    {
+      "name": "informatron",
+      "enabled": true
+    },
+    
+    {
+      "name": "jetpack",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_2a6",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_40kbaneblade",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_40kbunker",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_40klemanruss",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_40kpredator",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_747",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_aircrafts",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_b2",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_b17",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_bf109",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_fuel",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_ho229",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_ju52",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_ju87",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_jug38",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_king_jos_planes",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_maustank",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_pak",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_panzer4",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_phalanx",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_rattetank",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_rattetank_graphics",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_tower",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_vierling",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_wirbelwind",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_xb35",
+      "enabled": true
+    },
+    
+    {
+      "name": "Krastorio2",
+      "enabled": true
+    },
+    
+    {
+      "name": "Krastorio2Assets",
+      "enabled": true
+    },
+    
+    {
+      "name": "Kux-CoreLib",
+      "enabled": true
+    },
+    
+    {
+      "name": "Kux-OrbitalIonCannon",
+      "enabled": true
+    },
+    
+    {
+      "name": "LandfillPainting",
+      "enabled": false
+    },
+    
+    {
+      "name": "LogisticTrainNetwork",
+      "enabled": true
+    },
+    
+    {
+      "name": "LtnManager",
+      "enabled": true
+    },
+    
+    {
+      "name": "LTN_Combinator_Modernized",
+      "enabled": true
+    },
+    
+    {
+      "name": "ModuleInserterSimplified",
+      "enabled": true
+    },
+    
+    {
+      "name": "Nanobots",
+      "enabled": true
+    },
+    
+    {
+      "name": "PipeVisualizer",
+      "enabled": true
+    },
+    
+    {
+      "name": "qol_research",
+      "enabled": true
+    },
+    
+    {
+      "name": "QuickItemSearch",
+      "enabled": true
+    },
+    
+    {
+      "name": "Rampant",
+      "enabled": true
+    },
+    
+    {
+      "name": "RampantArsenal",
+      "enabled": true
+    },
+    
+    {
+      "name": "RateCalculator",
+      "enabled": true
+    },
+    
+    {
+      "name": "RecipeBook",
+      "enabled": true
+    },
+    
+    {
+      "name": "robot_attrition",
+      "enabled": true
+    },
+    
+    {
+      "name": "Robot_Battery_Research",
+      "enabled": true
+    },
+    
+    {
+      "name": "RPGsystem",
+      "enabled": true
+    },
+    
+    {
+      "name": "safefill",
+      "enabled": true
+    },
+    
+    {
+      "name": "Searchlight",
+      "enabled": true
+    },
+    
+    {
+      "name": "shield-projector",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-2",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-3",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-4",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-graphics-5",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-menu-simulations",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-exploration-postprocess",
+      "enabled": true
+    },
+    
+    {
+      "name": "spidertron-extended",
+      "enabled": true
+    },
+    
+    {
+      "name": "Squeak Through",
+      "enabled": true
+    },
+    
+    {
+      "name": "stdlib",
+      "enabled": true
+    },
+    
+    {
+      "name": "Subsurface",
+      "enabled": true
+    },
+    
+    {
+      "name": "Tapeline",
+      "enabled": true
+    },
+    
+    {
+      "name": "TaskList",
+      "enabled": true
+    },
+    
+    {
+      "name": "textplates",
+      "enabled": true
+    },
+    
+    {
+      "name": "TimeTools",
+      "enabled": true
+    },
+    
+    {
+      "name": "UltimateResearchQueue",
+      "enabled": true
+    },
+    
+    {
+      "name": "VehicleSnap",
+      "enabled": true
+    }
+  ]
+}
