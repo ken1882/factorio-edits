@@ -1,0 +1,5 @@
+3D-Models:
+	"Manilov.ap's Bf 109 Mod" (https://skfb.ly/6RE9p) by Simple Aviation & Boating is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Sounds:
+	Motor: War Thunder

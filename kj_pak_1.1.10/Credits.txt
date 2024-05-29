@@ -1,0 +1,5 @@
+3D-Models:
+	"Pak anti tank gun" (https://skfb.ly/6Wnwu) by AMAC35 is licensed under CC Attribution-NonCommercial-ShareAlike (http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Sounds:
+	Gun: Crossout

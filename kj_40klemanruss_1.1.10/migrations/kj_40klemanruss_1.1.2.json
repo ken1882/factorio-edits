@@ -1,0 +1,14 @@
+{
+	"ammo-category":
+	[
+		["kj_lemanruss_bolt", "kj_bolter"]
+	],
+	"ammo":
+	[
+		["kj_lemanruss_bolt", "kj_bolt"]
+	],
+	"item":
+	[
+		["kj_lemanruss_bolt", "kj_bolt"]
+	]
+}

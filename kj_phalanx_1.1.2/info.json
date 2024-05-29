@@ -1,0 +1,20 @@
+{
+  "name": "kj_phalanx",
+  "version": "1.1.2",
+  "title": "King Jo's Phalanx CIWS",
+  "author": "TheKingJo",
+  "contact": "",
+  "homepage": "",
+  "description": "Adds the Phalanx CIWS to effectively destroy airborne targets. Yes, this turret will ONLY target entities with the trigger_target_mask 'air-unit'. That means the player or entities that are able to be targeted and got the mask assigned to by other mods. A mod option can enable a turret version that also targets normal enemies! BRRRT inclusive!",
+  "factorio_version":"1.1",
+  "dependencies": ["base",
+	"? kj_vierling >= 1.1.0",
+	"? kj_b2 >= 1.1.0",
+	"? kj_b17 >= 1.1.0",
+	"? kj_bf109 >= 1.1.0",
+	"? kj_ho229 >= 1.1.0",
+	"? kj_ju52 >= 1.1.0",
+	"? kj_ju87 >= 1.1.0",
+	"? kj_jug38 >= 1.1.0",
+	"? kj_xb35 >= 1.1.0"]
+}

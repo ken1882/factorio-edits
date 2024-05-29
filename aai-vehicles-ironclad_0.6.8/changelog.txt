@@ -1,0 +1,55 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.6.8
+Date: 08. 02. 2023
+  Bugfixes:
+    - Fixed being able to kick out an existing driver by entering yourself.
+    - Fixed missing damage value from mortar ammo tooltip.
+    - The tooltip range of the cannon weapon will now match the highest range of available shells to avoid confusion.
+
+  Compatibility:
+    - Fixed Stronger Explosive tech not benefiting mortar bombs in some cases if the techs had been modified by another mod beforehand (e.g. K2).
+    - Added `disable_this_tick` remote interface which allows other mods to disable the special enter/exit script for 1 tick, useful for other vehicle mods that manage entering/exiting.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.7
+Date: 07. 02. 2023
+  Bugfixes:
+    - Fixed mortar trails appearing on the minimap.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.6
+Date: 22. 10. 2022
+  Bugfixes:
+    - Fixed a crash if a deployed vehicle became invalid between events.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.5
+Date: 08. 06. 2022
+  Bugfixes:
+    - Fixed a crash if the extended range vehicle enter target became invalid between events.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.4
+Date: 26. 05. 2022
+  Changes:
+    - Removed collision with "object-layer".
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.3
+Date: 06. 05. 2022
+  Locale:
+    - Added missing locale for the Ironclad weapons.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.2
+Date: 04. 05. 2022
+  Changes:
+    - Added mortar turret graphics.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.1
+Date: 04. 05. 2022
+  Info:
+    - Added Ironclad, a heavy metal-plated boat armed with a long range mortar and cannon.
+    - Added Mortar bomb, a very long-range arcing explosive.
+    - Added Mortar cluster bomb, a long-range arcing explosive that subdivides.

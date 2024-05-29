@@ -1,0 +1,69 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 05.03.2023
+  Changes:
+    - airborne version creation streamlined and put in kj_aircraft mod
+  Fixes:
+    - light overhaul doesn't lead to errors
+    - terrain_friction_modifier of the ground vehicles put to 1 again. concrete influences speed again
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 21.02.2023
+  Changes:
+    - landing speed setting is now hidden, since its unused
+    - plane now uses shadow takeoff and landing animation from the aircraft realism mod
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 26.01.2022
+  Changes:
+    - changed mod folder structure
+    - streamlined prototype sprite creation
+    - added plane map icon
+    - plane no longer immune to tree impact :D
+    - changed item order
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 12.01.2022
+  Fixes:
+    - just a lil problem with strings n tables you know
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 09.01.2022
+  Changes:
+    - changed the research a bit so it's earlier accessable, its a cargo plane after all
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 12.10.2021
+  Changes:
+    - rebalanced hp
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 11.10.2021
+  Fixes:
+    - fixed an error with picker vehicles
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 27.09.2021
+  Changes:
+    - plane now takes off more easily (problem with not enabling realistic acceleration)
+    - I RECOMMEND RESETTING THE TAKEOFF SPEED TO DEFAULT IN THE SETTINGS!!!
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 24.07.2021
+  Changes:
+    - tha big recipe_changes rework
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 18.07.2021
+  Fixes:
+    - correct aircraft realism dependency
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 18.07.2021
+  Changes:
+    - added unique sound
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 09.07.2021
+  Changes:
+    - Initial Release

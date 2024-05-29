@@ -1,0 +1,66 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 03.01.2021
+  Fixes:
+    - projectiles now ignoring allied objects
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 01.08.2021
+  Changes:
+    - some graphics put into graphics mod for quicker updates
+    - bigger piercing_damage for all ammos
+    - height of projectiles set to 0
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 24.07.2021
+  Changes:
+    - tha big recipe_changes rework
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 30.06.2021
+  Changes:
+    - fuel system rework
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 31.05.2021
+  Changes:
+    - HR textures added in seperate mod
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 24.05.2021
+  Changes:
+    - compatibility redone
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 16.04.2021
+  Changes:
+    - recipe changes
+    - damage balancings in combination with my other mods
+    - tech tree adjustments
+    - fire immunity gained
+    - working ingame changelog
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 05.04.2021
+  Changes:
+    - New looks, still no HR though
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 13.03.2021
+  Changes:
+    - Fixed the "mined" sound; compatibility redone
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 30.01.2021
+  Changes:
+    - Updated to 1.1.0
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 19.01.2021
+  Changes:
+    - Bugfix: recipe multiplicator was wrong
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 17.01.2021
+  Changes:
+    - Initial Release

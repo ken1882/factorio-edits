@@ -1,0 +1,7 @@
+3D-Models:
+	"P1000 ratte" by Herdyn is licensed under Creative Commons Attribution. https://skfb.ly/6VxwW To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+
+Sounds:
+	Ratte gun: https://www.youtube.com/watch?v=bKBaKZdeh1Q
+
+Thanks goes to @akulisch for helping me with Blender and Testing!

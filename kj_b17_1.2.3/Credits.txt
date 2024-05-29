@@ -1,0 +1,13 @@
+3D-Models:
+	"B17" (https://skfb.ly/YMBD) by manilov.ap is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+	"Boeing B-17 Flying Fortress" (https://skfb.ly/ZEpn) by helijah is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Icons:
+	Bomb: "Bomb (high-poly draft)" (https://skfb.ly/6VRAB) by HardBread is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Sounds:
+	Motor: War Thunder
+	Airborne motor: https://www.youtube.com/watch?v=4qOHrzIlxYA
+			https://www.youtube.com/watch?v=52Qq1o1b1cg
+			

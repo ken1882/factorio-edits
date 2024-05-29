@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 04.06.2023
+  Changes:
+    - added mod option that enables a non AA version as a normal turret. it has less range but will target all enemies.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 01.05.2023
+  Changes:
+    - Added an option to disable 'air-unit' target mask for all other turrets so only my guns can attack flying units. If you're the default settings basically, this doesn't bother you.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 30.04.2023
+  Changes:
+    - Initial Release

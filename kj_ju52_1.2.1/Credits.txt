@@ -1,0 +1,5 @@
+3D-Models:
+	https://3dwarehouse.sketchup.com/model/38aacec5533b6a0073936f929f4e6a11/ju-52
+
+Sounds:
+	Motor: War Thunder

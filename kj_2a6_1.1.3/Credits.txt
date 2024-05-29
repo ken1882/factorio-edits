@@ -1,0 +1,10 @@
+3D-Models:
+	https://3dwarehouse.sketchup.com/model/e9cc64a9e2bad858c1006ed55bc1a3fc/Leopard-2A6
+
+Icons:
+	MG 42: https://de.wikipedia.org/wiki/Datei:MG42_45-Display_noBG.png
+
+Sounds:
+	Maus gun: https://www.youtube.com/watch?v=hq3yt1CyYg0
+	MG42: https://www.youtube.com/watch?v=bfOo89WOQDk
+	Engine: Factorio, War Thunder

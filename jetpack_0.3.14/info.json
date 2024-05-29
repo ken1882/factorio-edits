@@ -1,0 +1,26 @@
+{
+  "name": "jetpack",
+  "version": "0.3.14",
+  "title": "Jetpack",
+  "author": "Earendel",
+  "dependencies": [
+    "base >= 1.1.77",
+    "(?) PickerTweaks"
+  ],
+  "description": "Lets you build jetpack equipment that lets you rocket at high speeds to fly over buildings and water.",
+  "factorio_version": "1.1",
+  "homepage": "https://spaceexploration.miraheze.org",
+  "package": {
+    "ignore": ["**"],
+    "extra": [
+      { 
+        "root": ".build"
+      }
+    ],
+    "scripts": {
+      "datestamp": "sh ./build-scripts/datestamp.sh",
+      "prepackage": "sh ./build-scripts/prepackage.sh",
+      "postpublish": "sh ./build-scripts/postpublish.sh"
+    }
+  }
+}

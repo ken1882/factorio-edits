@@ -1,0 +1,15 @@
+{
+    "item":
+    [
+        ["kr-singularity-beacon", "se-compact-beacon"],
+        ["se-cryonite-crushed", "se-cryonite"],
+        ["se-cryonite-washed", "se-cryonite"],
+        ["se-beryllium-ore-crushed", "se-beryllium-ore"],
+        ["se-vulcanite-washed", "se-vulcanite"],
+        ["se-holmium-ore-washed", "se-holmium-ore"],
+        ["se-iridium-ore-washed", "se-iridium-ore"],
+        ["se-naquium-ore-washed", "se-naquium-ore"],
+        ["se-vitamelange-roast", "se-vitamelange"],
+        ["se-vitalic-acid", "se-vitamelange-extract"]
+    ]
+}

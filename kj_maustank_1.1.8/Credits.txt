@@ -1,0 +1,11 @@
+3D-Models:
+	"Maus tank" by BK_114 is licensed under Creative Commons Attribution-NonCommercial. https://skfb.ly/6RYYI To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/.
+
+Icons:
+	MG 42: https://de.wikipedia.org/wiki/Datei:MG42_45-Display_noBG.png
+
+Sounds:
+	Maus gun: https://www.youtube.com/watch?v=hq3yt1CyYg0
+	MG42: https://www.youtube.com/watch?v=bfOo89WOQDk
+
+Thanks goes to @akulisch for helping me with Blender and Testing!

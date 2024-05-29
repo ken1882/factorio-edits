@@ -1,0 +1,22 @@
+{
+	"name": "aai-vehicles-ironclad",
+	"version": "0.6.8",
+	"title": "AAI Vehicles: Ironclad",
+	"author": "Earendel",
+	"dependencies": ["base >= 1.1.0"],
+	"description": "A heavy metal-plated boat armed with a long range mortar and cannon. Can use mortar and tank ammo. It is easiest to get in and out of the Ironclad from shallow water (Alien Biomes mod).",
+	"factorio_version": "1.1",
+	"homepage": "https://discord.gg/ymjUVMv",
+	"package": {
+    "ignore": ["**"],
+    "extra": [
+      { 
+        "root": ".build"
+      }
+    ],
+    "scripts": {
+      "datestamp": "sh ./build-scripts/datestamp.sh",
+      "prepackage": "sh ./build-scripts/prepackage.sh"
+    }
+  }
+}

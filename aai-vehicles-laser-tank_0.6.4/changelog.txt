@@ -1,0 +1,62 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.6.4
+Date: 27. 12. 2021
+  Changes:
+    - Added hr graphics (upscaled) thanks to steinerrr.
+    - Piercing laser tank ammo can now target a direction instead of enemies directly.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.3
+Date: 21. 10. 2021
+  Bugfixes:
+    - Removed old migration code that was not needed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.2
+Date: 24. 11. 2020
+  Bugfixes:
+    - Fixed that the recipes started unlocked if the "tanks" tech was removed from the game.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.1
+Date: 24. 11. 2020
+  Info:
+    - Updated for Factorio 1.1.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 07. 08. 2020
+  Locale:
+    - Added Japanese translation.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 13. 06. 2020
+  Changes:
+    - Now has 95% laser resistance (mainly to limit friendly fire).
+    - Increased health to 2500.
+    - Increased turret turn speed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 28. 01. 2020
+  Info:
+    - Updated for Factorio 0.18.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+  Info:
+    - Updated for Factorio 0.17.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Info:
+    - Updated for Factorio 0.16.
+
+  Changes:
+    - Added Laser Tank Technology and created new laser cannon batter icons.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+  Info:
+    - Updated for Factorio 0.15.

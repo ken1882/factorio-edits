@@ -1,0 +1,8 @@
+3D-Models:
+	"German Ju 87 Stuka Airplane" (https://skfb.ly/6UDOL) by dannysgallegos is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Icons:
+	Bomb: "Bomb (high-poly draft)" (https://skfb.ly/6VRAB) by HardBread is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Sounds:
+	Motor: War Thunder

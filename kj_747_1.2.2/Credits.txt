@@ -1,0 +1,6 @@
+3D-Models:
+	"Boeing 747" (https://skfb.ly/6TXVX) by PartialHedgehog is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Sounds:
+	Engine: War Thunder
+			

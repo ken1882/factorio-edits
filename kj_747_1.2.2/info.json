@@ -1,0 +1,16 @@
+{
+  "name": "kj_747",
+  "version": "1.2.2",
+  "title": "King Jo's Boeing 747",
+  "author": "TheKingJo",
+  "contact": "",
+  "homepage": "",
+  "description": "Adds a Boeing 747. In combination with the AircraftRealism mod you will be able to fly above your enemies. When you reach the takeoff speed, the plane gets invincible to everything except 'flak' damage. This is a transport class airplane with 540 cargoslots.",
+  "factorio_version":"1.1",
+  "dependencies": [
+	"base",
+	"kj_fuel >= 1.1.0",
+	"? space-exploration > 0.5.56",
+	"AircraftRealism >= 1.5.2",
+	"kj_aircrafts >= 1.1.4"]
+}

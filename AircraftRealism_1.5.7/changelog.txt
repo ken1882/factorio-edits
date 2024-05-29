@@ -1,0 +1,240 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.5.7
+Date: 2024-05-02
+  Features:
+    - Add official support for multi-file shadows
+    - Add ability for aircraft authors to set aircraft max speed
+    - Add reasonable speed limits to aircraft
+  Changes:
+    - Lower takeoff speed of jet
+    - Low fuel warning does not sound if plane is stationary or reversing
+---------------------------------------------------------------------------------------------------
+Version: 1.5.6
+Date: 2023-11-22
+  Changes:
+    - Added events on entity creation and destruction events when plane transitions between airborne and grounded which other mods can subscribe to
+---------------------------------------------------------------------------------------------------
+Version: 1.5.5
+Date: 2023-06-10
+  Features:
+    - Add ability for planes to land on water
+---------------------------------------------------------------------------------------------------
+Version: 1.5.4
+Date: 2023-05-27
+  Bugfixes:
+    - Fix gauges remaining after player plane is destroyed
+---------------------------------------------------------------------------------------------------
+Version: 1.5.3
+Date: 2023-04-27
+  Changes:
+    - Cache plane data during runtime to reduce UPS drain
+---------------------------------------------------------------------------------------------------
+Version: 1.5.2
+Date: 2022-12-22
+  Bugfixes:
+    - Fix plane getting destroyed when you enter a new plane after crashing a plane with "Deadly environmental impacts"
+---------------------------------------------------------------------------------------------------
+Version: 1.5.1
+Date: 2022-11-26
+  Features:
+    - Add option to make airborne planes immune to damage
+---------------------------------------------------------------------------------------------------
+Version: 1.5.0
+Date: 2022-11-19
+  Features:
+    - Add aircraft takeoff distance indicator
+    - Add animated shadows
+  Changes:
+    - Planes now define a single speed (transition speed for takeoff and landing)
+    - Remove setting "No airborne plane shadows"
+    - Remove setting "Auto reaccelerate to keep airborne" (install a cruise control mod instead)
+    - Improve accuracy of "Deadly environmental impacts" to avoid incorrectly destroying the plane
+    - Adjust default settings (realistic acceleration and braking force on by default)
+  Bugfixes:
+    - Fix some aircraft properties not being copied over on takeoff/landing
+    - 'Fix' being kept airborne when out of fuel with "Auto reaccelerate to keep airborne"
+---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 2022-06-29
+  Changes:
+    - Docs is not included as part of mod to fix error installing mod on Factorio Server Manager
+---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2022-01-03
+  Changes:
+    - Add support for Aircraft 1.8 (separate layers for plane and shadow)
+    - By snouz: Optimized images losslessly with PNGGauntlet
+  Breaking changes:
+    - Minimum Aircraft version is now 1.8
+---------------------------------------------------------------------------------------------------
+Version: 1.3.3
+Date: 2021-10-13
+  Bugfixes:
+    - Fixed crash with AAI Programmable Vehicles (https://mods.factorio.com/mod/AircraftRealism/discussion/613ecabbdddb521034eeb513)
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 2021-08-07
+  Bugfixes:
+    - Fixed crash trying to transfer over non shield equipment
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 2021-08-01
+  Bugfixes:
+    - Fixed crash when trying to kill player in sandbox mode
+  Changes:
+    - Guard against modded fuels changing, resulting in current burn time > fuel burn time
+    - Handle planes with no burner
+    - Asserts fail on incorrect creation of grounded and airborne plane prototypes
+    - Only realistic turn radius is on by default (Less harsh for new users)
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 2021-06-24
+  Features:
+    - Mod authors can add custom planes, see Docs/
+    - Aircraft mod is now optional
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2021-04-19
+  Features:
+    - Fix mod not working in sandbox mode #11
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2020-12-11
+  Features:
+    - Updated to 1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2020-11-13
+  Bugfixes:
+    - Fixed incorrect handling of fuel usage multiplier (https://mods.factorio.com/mod/AircraftRealism/discussion/5fad45c1e8199cb1974be722)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2020-10-24
+  Bugfixes:
+    - Fixed crash taking off if player's force is not of name "player" (https://mods.factorio.com/mod/AircraftRealism/discussion/5f8792825a290fb9bae06216)
+    - Fixed player dying landing if player's force is not of name "player"
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020-8-14
+  Features:
+    - Updated to 1.0
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020-1-26
+  Features:
+    - Updated to 0.18
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2020-1-8
+  Bugfixes:
+    - Fixed crash entering train or any single passenger vehicle
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2020-1-7
+  Features:
+    - Added low fuel sounds
+    - Added auto acceleration when not braking upon reaching the landing speed
+  Changes:
+    - Getting out of a plane is disallowed while the plane is in motion while grounded
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 2020-1-1
+  Bugfixes:
+    - Fixed incorrect health scaling with better cargo planes (https://github.com/jaihysc/Factorio-AircraftRealism/issues/6)
+  Changes:
+    - Lowered default takeoff speed of jet
+    - Turned off various features by default
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2019-10-17
+  Bugfixes:
+    - Fixed crash with a nil tile (https://github.com/jaihysc/Factorio-AircraftRealism/issues/3)
+    - Fixed crash with a nil player.vehicle when trying to ride rocket
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2019-09-17
+  Bugfixes:
+    - Fixed crash if plane has no weapons
+  Changes:
+    - Added range checking to inventory transfers between different planes
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2019-09-12
+  Bugfixes:
+    - Fixed gauges not disappearing when plane crashes (https://mods.factorio.com/mod/AircraftRealism/discussion/5d7104eb52edf0000cf0cbe2)
+    - Fixed plane equipment grid with burners not being transferred on takeoff/landing (https://mods.factorio.com/mod/AircraftRealism/discussion/5d781ff6ec708b000b564668)
+  Changes:
+    - Added range and nil checking to defend against unpredicted values when switching between mods
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2019-08-31
+  Bugfixes:
+    - Hopping out of a moving aircraft as a passenger no longer destroys the plane
+    - If pilot hops out of a moving aircraft, passenger becomes the pilot
+  Changes:
+    - Changed mod config option names for clarity
+    - Increased braking force of cargo plane
+    - Lowered severity of impacts with "Increased ground collision damage" enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2019-08-07
+  Major Features:
+    - Added gui gauges for fuel and speed
+  Features:
+    - Added configurable fuel usage multiplier setting
+    - Inventory items remain in their assigned slots on takeoff and landing
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2019-08-04
+  Changes:
+    - Moved duplication of airborne aircraft back into data-final-fixes to avoid mod conflicts
+  Bugfixes:
+    - Fixed crash if plane has no weapons on takeoff and landing
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2019-08-04
+  Major Features:
+    - Added option for strict runway checking (https://mods.factorio.com/mod/AircraftRealism/discussion/5d44c11ebce81e000df64f22)
+    - Added support for helicopters mod (https://mods.factorio.com/mod/AircraftRealism/discussion/5d452089de13a8000ca32a40)
+  Changes:
+    - Raised activation speed for environmental obstacles from 35km/h to 40km/h
+    - Inceased update rate of collision detection since it appears to occasionally fail to recognise cliff collisions
+    - Lowered default pollution amount emitted by planes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2019-08-03
+  Minor Features:
+    - Made the flying fortress more powerful since it is so expensive
+    - If a passenger is present in a plane when the driver bails, the passenger becomes the driver instead of the plane blowing up
+  Bugfixes:
+    - Fixed the realism acceleration option not doing anything
+    - Fixed planes blowing up when stationary over water with the option Realistic environmental impacts
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2019-08-02
+  Info:
+    - Wrote this changelog
+  Major Features:
+    - Added option to remove shadows from Aircraft off the ground
+    - Added support for Better Cargo Planes (https://mods.factorio.com/mod/betterCargoPlanes)
+    - Planes now glide so you don't need to always hold down accelerate
+  Minor Features:
+    - Tweaked handling of planes
+    - Lowered takeoff and landing speed of the jet
+  Bugfixes:
+    - Fixed misspelled words
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2019-08-01
+  Bugfixes:
+    - Fixed equipment grid items not being transferred over on takeoff and landing
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2019-08-01
+  Bugfixes:
+    - Fixed selected weapon not being saved on takeoff and landing
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2019-08-01
+  Info:
+    - Initial mod!

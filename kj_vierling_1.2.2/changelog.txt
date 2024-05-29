@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 01.05.2023
+  Changes:
+    - Added an option to disable 'air-unit' target mask for all other turrets so only my guns can attack flying units. If you're the default settings basically, this doesn't bother you.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 18.04.2023
+  Changes:
+    - made spritesheet generator functions local
+    - added electric, laser, posion resistances
+    - almost halved the turning speed
+    - increased attacking speed and RPM
+    - increased folding speed
+    - added turning penalty
+  Fixes:
+    - fixed error in final fixes that led to error when character already had trigger_target_mask 
+    - fixed integration being on wrong layer basically
+    - fixed a stupid error with compatibility with panzer4 and wirbelwind
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 05.03.2023
+  Changes:
+    - streamlined trigger_target_mask assigning process
+    - mod folder resetructure
+    - added support for kj_xb35, kj_jug38
+    - if kj_wirbelwind is enabled, both get each others flak ammunition
+  Fixes:
+    - trigger_target_mask now also being added to airborne version when entity didnt have any before
+    - technology applies ammo-damage and gun-speed boost again
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 15.12.2021
+  Fixes:
+    - fixed an error caused by my stupidity
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 16.10.2021
+  Fixes:
+    - fixed an error with the flak damage type
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 15.10.2021
+  Changes:
+    - Initial Release

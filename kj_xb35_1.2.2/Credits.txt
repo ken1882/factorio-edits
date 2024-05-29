@@ -1,0 +1,7 @@
+3D-Models:
+	https://3dwarehouse.sketchup.com/model/d658bca395bde29d176e2b8cc4368327/XB-35-flying-wing?login=true
+
+	"XB 35 Experimental Bomber" (https://skfb.ly/6UKwt) by Corvette724 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Sounds:
+	Motor: War Thunder

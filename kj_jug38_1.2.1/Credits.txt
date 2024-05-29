@@ -1,0 +1,6 @@
+3D-Models:
+	"Junkers G 38" (https://skfb.ly/6XsY9) by helijah is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+	"Pilot Yeferson" (https://skfb.ly/o6DWN) by Claus the Modeler is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Sounds:
+	Motor: War Thunder

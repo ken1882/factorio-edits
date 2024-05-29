@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 25.11.2023
+  Changes:
+    - changed SE support
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 05.03.2023
+  Changes:
+    - airborne version creation streamlined and put in kj_aircraft mod
+    - crash handling is now handled in kj_aircraft mod
+  Fixes:
+    - light overhaul doesn't lead to errors
+    - terrain_friction_modifier of the ground vehicles put to 1 again. concrete influences speed again
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 21.02.2023
+  Changes:
+    - landing speed setting is now hidden, since its unused
+    - plane now uses shadow takeoff and landing animation from the aircraft realism mod
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 06.06.2022
+  Changes:
+    - changed locale so that it gets sorted with all other mods of mine in the mod list
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 24.02.2022
+  Changes:
+    - added possibility of plane exploding with a nuke when it gets destroyed/crashes and had a-bombs onboard
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 28.01.2022
+  Changes:
+    - Initial Release

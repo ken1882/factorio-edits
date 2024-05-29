@@ -1,0 +1,76 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 03.01.2021
+  Fixes:
+    - projectiles now ignoring allied objects
+    - projectile visuals are in the correct height now
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 20.09.2021
+  Changes:
+    - Krastorio2 support test
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 24.07.2021
+  Changes:
+    - tha big recipe_changes rework
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 30.06.2021
+  Changes:
+    - fuel system rework
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 17.06.2021
+  Changes:
+    - Munition icon color changed to cyan
+    - handheld MG 34 added (now with custom sound)
+    - adjusted explosion effects of munition
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 15.06.2021
+  Fixes:
+    - APHE was using the HE projectile (oops)
+  Changes:
+    - "more ammo" tech cost reduced (500->200)
+    - MG 34 shooting speed increased
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 24.05.2021
+  Changes:
+    - compatibility redone
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 16.04.2021
+  Changes:
+    - locale fix
+    - recipe changes
+    - damage balancings in combination with my other mods
+    - tech tree adjustments
+    - fire immunity gained
+    - working ingame changelog
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 13.03.2021
+  Changes:
+    - Fixed the "mined" sound; compatibiltiy redone
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: XX.02.2021
+  Changes:
+    - Updated to Version 1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 17.01.2021
+  Changes:
+    - took away the production science pack from the technology
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 16.01.2021
+  Changes:
+    - changed the ammo item icon
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 15.01.2021
+  Changes:
+    - Initial Release

@@ -1,0 +1,11 @@
+graphics/
+sounds/
+sound/
+audio/
+*.mp3
+*.wav
+*.ogg
+*.png
+*.jpg
+*.ico
+*.zip

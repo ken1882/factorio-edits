@@ -1,0 +1,12 @@
+{
+  "item":
+  [
+    ["railgun", "se-railgun"],
+    ["railgun-dart", "se-railgun-ammo"]
+  ],
+  "recipe":
+  [
+    ["railgun", "se-railgun"],
+    ["railgun-dart", "se-railgun-ammo"]
+  ]
+}

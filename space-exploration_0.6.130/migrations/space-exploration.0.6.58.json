@@ -1,0 +1,8 @@
+{
+    "technology":
+    [
+        ["se-vulcanite-smelting", "se-pyroflux-smelting"],
+        ["se-vulcanite-smelting-beryllium", "se-pyroflux-smelting-beryllium"],
+        ["se-vulcanite-smelting-holmium", "se-pyroflux-smelting-holmium"]
+    ]
+}
