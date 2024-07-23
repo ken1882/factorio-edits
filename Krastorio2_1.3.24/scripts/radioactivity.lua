@@ -6,7 +6,7 @@ local radioactivity = {}
 
 function radioactivity.init()
   global.radioactivity = {
-    enabled = true,
+    enabled = false,
     --- @type table<uint, RadioactivityPlayerData>
     players = {},
   }
@@ -52,107 +52,107 @@ end
 
 --- @param player LuaPlayer
 function radioactivity.check_around_player(player)
-  if not global.radioactivity.enabled or #global.radioactivity.entities == 0 then
-    return
-  end
+  -- if not global.radioactivity.enabled or #global.radioactivity.entities == 0 then
+  --   return
+  -- end
 
-  local player_data = global.radioactivity.players[player.index]
-  if not player_data then
-    return
-  end
+  -- local player_data = global.radioactivity.players[player.index]
+  -- if not player_data then
+  --   return
+  -- end
 
-  if not player.character or not player.character.valid then
-    player_data.entity = false
-    return
-  end
+  -- if not player.character or not player.character.valid then
+  --   player_data.entity = false
+  --   return
+  -- end
 
-  local position = player.position
-  local last_position = player_data.last_position
-  if math.floor(position.x) ~= math.floor(last_position.x) or math.floor(position.y) ~= math.floor(last_position.y) then
-    player_data.last_position = position
+  -- local position = player.position
+  -- local last_position = player_data.last_position
+  -- if math.floor(position.x) ~= math.floor(last_position.x) or math.floor(position.y) ~= math.floor(last_position.y) then
+  --   player_data.last_position = position
 
-    local in_range = player.character
-        and player.surface.count_entities_filtered({
-          name = global.radioactivity.entities,
-          radius = constants.radioactivity_range,
-          position = player.position,
-        }) > 0
-      or false
-    player_data.entity = in_range
-  end
+  --   local in_range = player.character
+  --       and player.surface.count_entities_filtered({
+  --         name = global.radioactivity.entities,
+  --         radius = constants.radioactivity_range,
+  --         position = player.position,
+  --       }) > 0
+  --     or false
+  --   player_data.entity = in_range
+  -- end
 end
 
 --- @param player LuaPlayer
 function radioactivity.check_inventory(player)
-  if not global.radioactivity.enabled then
-    return
-  end
+  -- if not global.radioactivity.enabled then
+  --   return
+  -- end
 
-  local player_data = global.radioactivity.players[player.index]
-  if not player_data then
-    return
-  end
+  -- local player_data = global.radioactivity.players[player.index]
+  -- if not player_data then
+  --   return
+  -- end
 
-  if not player.character or not player.character.valid then
-    player_data.inventory = false
-    return
-  end
+  -- if not player.character or not player.character.valid then
+  --   player_data.inventory = false
+  --   return
+  -- end
 
-  local inventories = { player.get_main_inventory(), player.get_inventory(defines.inventory.character_trash) }
+  -- local inventories = { player.get_main_inventory(), player.get_inventory(defines.inventory.character_trash) }
 
-  for _, inventory in pairs(inventories) do
-    for _, item_name in pairs(global.radioactivity.items) do
-      if inventory.get_item_count(item_name) > 0 then
-        player_data.inventory = true
-        return
-      end
-    end
-  end
+  -- for _, inventory in pairs(inventories) do
+  --   for _, item_name in pairs(global.radioactivity.items) do
+  --     if inventory.get_item_count(item_name) > 0 then
+  --       player_data.inventory = true
+  --       return
+  --     end
+  --   end
+  -- end
 
-  player_data.inventory = false
+  -- player_data.inventory = false
 end
 
 function radioactivity.update_sounds()
-  if not global.radioactivity.enabled then
-    return
-  end
+  -- if not global.radioactivity.enabled then
+  --   return
+  -- end
 
-  for player_index, player_data in pairs(global.radioactivity.players) do
-    if table.find(player_data, true) then
-      local player = game.get_player(player_index) --[[@as LuaPlayer]]
-      if player.connected then
-        player.play_sound({
-          path = "kr-radioactive",
-          volume_modifier = 0.5,
-        })
-      end
-    end
-  end
+  -- for player_index, player_data in pairs(global.radioactivity.players) do
+  --   if table.find(player_data, true) then
+  --     local player = game.get_player(player_index) --[[@as LuaPlayer]]
+  --     if player.connected then
+  --       player.play_sound({
+  --         path = "kr-radioactive",
+  --         volume_modifier = 0.5,
+  --       })
+  --     end
+  --   end
+  -- end
 end
 
 function radioactivity.update_and_damage()
-  if not global.radioactivity.enabled then
-    return
-  end
+  -- if not global.radioactivity.enabled then
+  --   return
+  -- end
 
-  for player_index, player_data in pairs(global.radioactivity.players) do
-    if table.find(player_data, true) then
-      local player = game.get_player(player_index) --[[@as LuaPlayer]]
-      if player.connected and player.character then
-        player.add_custom_alert(
-          player.character,
-          { type = "virtual", name = "kr-nuclear-2" },
-          { "other.kr-taking-radioactive-damage" },
-          false
-        )
+  -- for player_index, player_data in pairs(global.radioactivity.players) do
+  --   if table.find(player_data, true) then
+  --     local player = game.get_player(player_index) --[[@as LuaPlayer]]
+  --     if player.connected and player.character then
+  --       player.add_custom_alert(
+  --         player.character,
+  --         { type = "virtual", name = "kr-nuclear-2" },
+  --         { "other.kr-taking-radioactive-damage" },
+  --         false
+  --       )
 
-        -- Damage the player
-        -- TODO: Account for armor and energy shields
-        local base_damage = 7.25
-        player.character.damage(base_damage, "enemy", "radioactive")
-      end
-    end
-  end
+  --       -- Damage the player
+  --       -- TODO: Account for armor and energy shields
+  --       local base_damage = 7.25
+  --       player.character.damage(base_damage, "enemy", "radioactive")
+  --     end
+  --   end
+  -- end
 end
 
 radioactivity.commands = {

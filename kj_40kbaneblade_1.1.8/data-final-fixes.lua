@@ -40,7 +40,7 @@ if mods["space-exploration"] then
       },
       time = 40
     }
-	data.raw["technology"]["kj_40kbaneblade"].prerequisites = {"military-4"}
+	data.raw["technology"]["kj_40kbaneblade"].prerequisites = {"military-3"}
 	
 	if mods["kj_40klemanruss"] then
 		table.insert(data.raw["technology"]["kj_40kbaneblade"].prerequisites, "kj_40klemanruss")
@@ -52,4 +52,11 @@ if mods["space-exploration"] then
 			table.insert(data.raw["technology"]["kj_40kbaneblade"].prerequisites, "kj_gasoline")
 		end
 	end
+end
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_40kbaneblade"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_gas_barrel"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
 end

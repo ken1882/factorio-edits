@@ -128,7 +128,7 @@ function rockets.enable()
                                                               cooldown = 300,
                                                               projectile_creation_distance = 1.39375,
                                                               projectile_center = {0, -0.0875},
-                                                              min_range = 20,
+                                                              min_range = 12,
                                                               turn_range = 0.30,
                                                               range = 76,
                                                               sound = {
@@ -192,9 +192,9 @@ function rockets.enable()
                                                                         cooldown = 50,
                                                                         projectile_creation_distance = 1.39375,
                                                                         projectile_center = {0, -0.0875},
-                                                                        min_range = 20,
+                                                                        min_range = 12,
                                                                         turn_range = 0.30,
-                                                                        range = 60,
+                                                                        range = 62,
                                                                         sound = {
                                                                             {
                                                                                 filename = "__base__/sound/fight/rocket-launcher.ogg",

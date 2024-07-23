@@ -1025,6 +1025,14 @@ data:extend({
 				damage = {amount = ATOM_DAMAGE, type = "explosion"}
 			  },
 			  {
+				type = "damage",
+				damage = {amount = ATOM_DAMAGE / 2, type = "radioactive"}
+			  },
+			  {
+				type = "damage",
+				damage = {amount = ATOM_DAMAGE / 2, type = "kr-explosion"}
+			  },
+			  {
 				type = "create-entity",
 				entity_name = "huge-scorchmark",
 				offsets = {{ 0, -0.5 }},
@@ -1059,13 +1067,13 @@ data:extend({
 				  type = "area",
 				  target_entities = false,
 				  trigger_from_target = true,
-				  repeat_count = 1000,
+				  repeat_count = 1000 * ATOM_RADIUS_MUL / 2,
 				  radius = 7 * ATOM_RADIUS_MUL,
 				  action_delivery =
 				  {
 					type = "projectile",
-					projectile = "atomic-bomb-ground-zero-projectile",
-					starting_speed = 0.6 * 0.8,
+					projectile = "kj-atomic-bomb-ground-zero-projectile",
+					starting_speed = 0.6 * 0.8 * ATOM_RADIUS_MUL,
 					starting_speed_deviation = 0.075
 				  }
 				}
@@ -1077,13 +1085,13 @@ data:extend({
 				  type = "area",
 				  target_entities = false,
 				  trigger_from_target = true,
-				  repeat_count = 1000,
+				  repeat_count = 1000 * ATOM_RADIUS_MUL,
 				  radius = 42 * ATOM_RADIUS_MUL,
 				  action_delivery =
 				  {
 					type = "projectile",
-					projectile = "atomic-bomb-wave",
-					starting_speed = 0.5 * 0.7,
+					projectile = "kj-atomic-bomb-wave",
+					starting_speed = 0.5 * 0.7 * ATOM_RADIUS_MUL,
 					starting_speed_deviation = 0.075
 				  }
 				}
@@ -1096,13 +1104,13 @@ data:extend({
 				  show_in_tooltip = false,
 				  target_entities = false,
 				  trigger_from_target = true,
-				  repeat_count = 1000,
+				  repeat_count = 1000 * ATOM_RADIUS_MUL / 2,
 				  radius = 26 * ATOM_RADIUS_MUL,
 				  action_delivery =
 				  {
 					type = "projectile",
 					projectile = "atomic-bomb-wave-spawns-cluster-nuke-explosion",
-					starting_speed = 0.5 * 0.7,
+					starting_speed = 0.5 * 0.7 * ATOM_RADIUS_MUL,
 					starting_speed_deviation = 0.075
 				  }
 				}
@@ -1115,13 +1123,13 @@ data:extend({
 				  show_in_tooltip = false,
 				  target_entities = false,
 				  trigger_from_target = true,
-				  repeat_count = 700,
+				  repeat_count = 700 * ATOM_RADIUS_MUL / 2,
 				  radius = 4 * ATOM_RADIUS_MUL,
 				  action_delivery =
 				  {
 					type = "projectile",
 					projectile = "atomic-bomb-wave-spawns-fire-smoke-explosion",
-					starting_speed = 0.5 * 0.65,
+					starting_speed = 0.5 * 0.65 * ATOM_RADIUS_MUL,
 					starting_speed_deviation = 0.075
 				  }
 				}
@@ -1134,13 +1142,13 @@ data:extend({
 				  show_in_tooltip = false,
 				  target_entities = false,
 				  trigger_from_target = true,
-				  repeat_count = 1000,
+				  repeat_count = 1000 * ATOM_RADIUS_MUL / 2,
 				  radius = 8 * ATOM_RADIUS_MUL,
 				  action_delivery =
 				  {
 					type = "projectile",
 					projectile = "atomic-bomb-wave-spawns-nuke-shockwave-explosion",
-					starting_speed = 0.5 * 0.65,
+					starting_speed = 0.5 * 0.65 * ATOM_RADIUS_MUL,
 					starting_speed_deviation = 0.075
 				  }
 				}
@@ -1153,13 +1161,13 @@ data:extend({
 				  show_in_tooltip = false,
 				  target_entities = false,
 				  trigger_from_target = true,
-				  repeat_count = 300,
+				  repeat_count = 300 * ATOM_RADIUS_MUL / 2,
 				  radius = 26 * ATOM_RADIUS_MUL,
 				  action_delivery =
 				  {
 					type = "projectile",
 					projectile = "atomic-bomb-wave-spawns-nuclear-smoke",
-					starting_speed = 0.5 * 0.65,
+					starting_speed = 0.5 * 0.65 * ATOM_RADIUS_MUL,
 					starting_speed_deviation = 0.075
 				  }
 				}
@@ -1203,3 +1211,85 @@ data:extend({
 		}
 	}
 })
+
+local kj_abomb_gzero_projectile = table.deepcopy(data.raw.projectile["atomic-bomb-ground-zero-projectile"])
+kj_abomb_gzero_projectile.name = "kj-atomic-bomb-ground-zero-projectile"
+kj_abomb_gzero_projectile.action = {
+    {
+      type = "area",
+      radius = 10,
+      ignore_collision_condition = true,
+      action_delivery = {
+        type = "instant",
+        target_effects = {
+          type = "damage",
+          vaporize = false,
+          lower_distance_threshold = 0,
+          upper_distance_threshold = 35,
+          lower_damage_modifier = 1,
+          upper_damage_modifier = 0.1,
+          damage = { amount = 200, type = "explosion" },
+        },
+        {
+          type = "damage",
+          vaporize = false,
+          lower_distance_threshold = 0,
+          upper_distance_threshold = 35,
+          lower_damage_modifier = 1,
+          upper_damage_modifier = 0.25,
+          damage = { amount = 200, type = "radioactive" },
+        },
+        {
+          type = "damage",
+          vaporize = false,
+          lower_distance_threshold = 0,
+          upper_distance_threshold = 35,
+          lower_damage_modifier = 1,
+          upper_damage_modifier = 0.1,
+          damage = { amount = 200, type = "kr-explosion" },
+        },
+      },
+    },
+}
+data:extend({kj_abomb_gzero_projectile})
+
+local kj_abomb_wave = table.deepcopy(data.raw.projectile["atomic-bomb-wave"])
+kj_abomb_wave.name = "kj-atomic-bomb-wave"
+kj_abomb_wave.action = {
+    {
+      type = "area",
+      radius = 7,
+      ignore_collision_condition = true,
+      action_delivery = {
+        type = "instant",
+        target_effects = {
+          type = "damage",
+          vaporize = false,
+          lower_distance_threshold = 0,
+          upper_distance_threshold = 35,
+          lower_damage_modifier = 1,
+          upper_damage_modifier = 0.1,
+          damage = { amount = 140, type = "explosion" },
+        },
+        {
+          type = "damage",
+          vaporize = false,
+          lower_distance_threshold = 0,
+          upper_distance_threshold = 35,
+          lower_damage_modifier = 1,
+          upper_damage_modifier = 0.25,
+          damage = { amount = 140, type = "radioactive" },
+        },
+        {
+          type = "damage",
+          vaporize = false,
+          lower_distance_threshold = 0,
+          upper_distance_threshold = 35,
+          lower_damage_modifier = 1,
+          upper_damage_modifier = 0.1,
+          damage = { amount = 140, type = "kr-explosion" },
+        },
+      },
+    },
+}
+data:extend({kj_abomb_wave})

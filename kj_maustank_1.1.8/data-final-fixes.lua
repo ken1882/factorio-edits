@@ -26,3 +26,10 @@ if boolean == true then
 	data.raw["ammo"]["kj_120kwk_highexplosive"].subgroup = "kj_maustank"
 	data.raw["ammo"]["kj_120kwk_penetration_highexplosive"].subgroup = "kj_maustank"
 end
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_maustank"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_gas_barrel"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
+end

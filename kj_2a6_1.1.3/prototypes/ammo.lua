@@ -147,11 +147,11 @@ data:extend({
 			  {
 				type = "projectile",
 				projectile = "kj_canister_projectile",
-				starting_speed = 1,
+				starting_speed = 3.5,
 				starting_speed_deviation = 0.1,
 				direction_deviation = 0.2,
 				range_deviation = 0.2,
-				max_range = 45
+				max_range = 75
 			  }
 			}
 		  }

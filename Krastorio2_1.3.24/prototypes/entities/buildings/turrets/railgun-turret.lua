@@ -316,7 +316,7 @@ data:extend({
       cooldown = 120,
       projectile_creation_distance = 3.25,
       projectile_center = { 0, 0.15 },
-      range = 50,
+      range = 80,
       min_range = 20,
       rotate_penalty = 20,
       health_penalty = -100,

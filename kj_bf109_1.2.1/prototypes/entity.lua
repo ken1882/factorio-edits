@@ -82,6 +82,29 @@ return {
 	}
 end
 
+local burner = {
+  fuel_category = "kj_kerosine",
+  effectivity = 1,
+  fuel_inventory_size = 2,
+  burnt_inventory_size = 1,
+  smoke =
+  {
+    {
+      name = "kj_bf109_smoke",
+      deviation = {0.25, 0.25},
+      frequency = 50,
+      position = {0, -2.7},
+  --offset = -2,
+      starting_frame = 0,
+      starting_frame_deviation = 60
+    },
+  }
+}
+if mods["Krastorio2"] then
+	burner.fuel_categories = {"vehicle-fuel", "kj_kerosine"}
+	burner.fuel_category = nil
+	burner.burnt_inventory_size = 1
+end
 data:extend({
   {
     type = "gun",
@@ -212,27 +235,9 @@ data:extend({
     sticker_box = {{-0.5, -0.5}, {0.5, 0.5}},
 	render_layer = "air-object", 
 	final_render_layer = "air-object",
-    effectivity = 1,
-    braking_power = "1000kW", 
-	burner =
-    {
-      fuel_category = "kj_kerosine",
-      effectivity = 1,
-      fuel_inventory_size = 2,
-	  burnt_inventory_size = 1,
-      smoke =
-      {
-        {
-          name = "kj_bf109_smoke",
-          deviation = {0.25, 0.25},
-          frequency = 50,
-          position = {0, -2.7},
-		  --offset = -2,
-          starting_frame = 0,
-          starting_frame_deviation = 60
-        },
-      }
-    },
+  effectivity = 1,
+  braking_power = "1000kW", 
+	burner = burner,
 	consumption = "400kW",
     friction = 0.001,
     light = entityLight,

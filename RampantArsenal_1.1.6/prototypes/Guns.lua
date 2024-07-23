@@ -100,7 +100,7 @@ function guns.enable()
                 west = {0, 0}
             },
             gun_barrel_length = 1,
-            range = 65,
+            range = 70,
             sound = {
                 {
                     filename = "__base__/sound/fight/rocket-launcher.ogg",
@@ -129,7 +129,7 @@ function guns.enable()
                 west = {0, 0}
             },
             gun_barrel_length = 1,
-            range = 55,
+            range = 65,
             sound = {
                 {
                     filename = "__base__/sound/fight/rocket-launcher.ogg",
@@ -166,7 +166,7 @@ function guns.enable()
             projectile_center = {-0, -0},
             gun_barrel_length = 1,
             projectile_creation_distance = 1,
-            range = 30,
+            range = 35,
             sound = sounds.heavy_gunshot
     })
 

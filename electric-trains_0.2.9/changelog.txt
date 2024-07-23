@@ -1,0 +1,112 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 01. 02. 2024
+  Info:
+    - The Electric Trains research has prerequisites for rocket control unit and big electrical engine when Space Exploration is installed.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 29. 01. 2024
+  Info:
+    - Fixed bug when loading alkaline powerpack update with increased fuel values in mod settings.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 29. 01. 2024
+  Info:
+    - New item and technology
+  Features:
+    - Alkaline PowerPacks are here! These can be researched immediately after electric trains and are an inexpensive way to run your electric train network. They have a high fuel value but cannot be recharged or refurbished. Trains run with decreased top speed and acceleration when using them.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 29. 01. 2024
+  Info:
+    - Electric rolling stock now inherit equipment grids if applicable (Credit to NullCascade for developing this feature)
+    - Added optional dependencies to ensure smooth loading with mods that require data changes.
+    - Updated the repository's readme file.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 28. 01. 2024
+  Info:
+    - Fixed SE compatibility bug where the advanced powerpack recipes had wrong modules. (Credit to bmc4 for pointing this out)
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 28. 01. 2024
+  Info:
+    - Made some migrations in mod files to be more compatible with other mods. (You will be hit with a migrated content pop up when loading into an older versioned save, but don't worry! Nothing will be affected.)
+    - Electric fluid wagon now appears before the artillery wagon (next to vanilla fluid wagon) in the crafting menu.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 26. 01. 2024
+  Info:
+    - Fixed bug where increased powerpack fuel value was not being applied to higher tier powerpacks.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 25. 01. 2024
+  Info:
+    - Fixed bug where turning off PowerPack decay in mod settings would stop Factorio loading when SE was active.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 24. 01. 2024
+  Info:
+    - Added compatibility for the Space Exploration mod. All researches and most recipes will be updated if you have the mod active.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 13. 01. 2024
+  Info:
+    - This is a bigger update, with new features, balancing and quality of life changes from hours of play testing.
+    - Added three new researches: Acceleration Train Powerpack, Speed Train Powerpack and Efficiency Train Powerpack.
+    - Each research unlocks a new experimental powerpack that has its own unique properties. They can be charged at the experimental charging station and refurbished at a chemical plant.
+    - As a result of this, you can now select the recipes in Experimental Train Powerpack Charging Stations. (Your old stations will still work, and you won't need to select the recipe again)
+  Features:
+    - Speed Train Powerpack: This powerpack has a higher top speed than the regular powerpack, but has a lower acceleration and fuel efficiency.
+    - Acceleration Train Powerpack: This powerpack has a higher acceleration than the regular powerpack, but has a lower top speed and fuel efficiency.
+    - Efficiency Train Powerpack: This powerpack has a higher fuel efficiency than the regular powerpack, and no other downsides.
+    - New icons for the experimental powerpacks, you can differentiate them by their a subtle colour change in the icon respective to the module they take. Yep, that's right. Each powerpack takes a tier 3 module to craft, making them quite expensive. This is to balance the huge benefits they can present.
+  Quality of Life:
+    - Electric Locomotives now have three output slots, to avoid "No burnt result space" messages stopping your trains during a phased powerpack changeover, or running your network on a mix of powerpacks.
+    - You can now manually select the recipes to be completed by charging stations. (Please submit a FAQ if you want the icon to display over the building in alt mode, I am still undecided on this)
+    - Better ordering of menu items.
+  Balancing:
+    - Increased crafting time of all Powerpack charging stations.
+    - Increased destroyed powerpack refurbishment time.
+    - Decreased the default powerpack fuel value.
+    - All spent fuel items have a max stack of 20, due to the QOL change above.
+    - You no longer need to research space science to unlock experimental charging stations, but you do have to research Electric Wagon Locomotive.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 09. 01. 2024
+  Info:
+    - Updated changelog to work with Factorio's parser.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 09. 01. 2024
+  Info:
+    - Added the Electric Wagon Locomotive.
+  Features:
+    - Introduces the Electric Wagon Locomotive. This is the same as the Electric Locomotive, but with the visual properties of a wagon. This helps the aesthetics of longer train configurations such as 2-8. This can be unlocked after researching the Electric Wagon Locomotive research.
+  Balancing:
+    - Battery refurbishment is now a little more expensive, although no ingredients have changed.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 07. 01. 2024
+  Info:
+    - Added Experimental Train Powerpack Charging Stations. (New research)
+    - A new "Faster Train Powerpack Charging" recipe for the experimental charging station.
+  Features:
+    - New building and recipe icons for the experimental charging station.
+  Balancing:
+    - All researches have sensible prerequisites and required science cost.
+    - Experimental charging stations use a lot more power than regular charging stations.
+    - Longer powerpack charge times.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 06. 01. 2024
+  Info:
+    - Initial release
+    - Forked from se-space-trains
+  Features:
+    - Rebranded research and added new infinite research.
+    - Renamed all new entities and items.
+    - New MiniMap icons for electric trains.
+  Balancing:
+    - Expensive, late game recipes for electric trains.
+    - Train physics are realistic for vanilla.

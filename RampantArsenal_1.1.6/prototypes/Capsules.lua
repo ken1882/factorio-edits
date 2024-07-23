@@ -1527,7 +1527,7 @@ function capsules.enable()
     local capsuleTurret, capsuleTurretItem = makeAmmoTurret(entity, {
                                                                 type = "stream",
                                                                 ammo_category = "capsule-launcher",
-                                                                cooldown = 450,
+                                                                cooldown = 250,
                                                                 damage_modifier = 1.25,
                                                                 lead_target_for_projectile_speed = 0.4,
                                                                 gun_center_shift = {
@@ -1538,8 +1538,8 @@ function capsules.enable()
                                                                 },
                                                                 gun_barrel_length = 4,
                                                                 min_range = 20,
-                                                                turn_range = 0.30,
-                                                                range = 80,
+                                                                turn_range = 0.25,
+                                                                range = 150,
                                                                 sound = {
                                                                     {
                                                                         filename = "__base__/sound/fight/tank-cannon.ogg",

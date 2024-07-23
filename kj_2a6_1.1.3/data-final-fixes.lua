@@ -56,3 +56,10 @@ if mods["space-exploration"] then
       time = 30
 	}
 end
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_2a6"]
+	prototype.burner.fuel_category = nil
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_gas_can"}
+	prototype.burner.burnt_inventory_size = 1
+end

@@ -45,42 +45,42 @@ local generic_impact =
 }
 
 --MG 34
-	local mg34 = table.deepcopy(data.raw["gun"]["tank-machine-gun"])
-	mg34.name = "kj_mg34"
-	mg34.icon = "__kj_panzer4__/graphics/equipment/mg34_icon.png"
-	mg34.icon_size = 128
-	mg34.attack_parameters.cooldown = 3.5
-	mg34.projectile_center = {}
-	mg34.order = "[basic-clips]-e[mg34]"
-	mg34.flags = {}
-	mg34.attack_parameters.range = 50
-	mg34.attack_parameters.sound = {
-		{
-			filename = "__kj_panzer4__/sounds/mg34_1.ogg",
-			volume = 0.4,
-		},
-		{
-			filename = "__kj_panzer4__/sounds/mg34_2.ogg",
-			volume = 0.4,
-		},
-		{
-			filename = "__kj_panzer4__/sounds/mg34_3.ogg",
-			volume = 0.4,
-		},
-		{
-			filename = "__kj_panzer4__/sounds/mg34_4.ogg",
-			volume = 0.4,
-		},
-		{
-			filename = "__kj_panzer4__/sounds/mg34_5.ogg",
-			volume = 0.4,
-		},
-		{
-			filename = "__kj_panzer4__/sounds/mg34_6.ogg",
-			volume = 0.4,
-		},
-	}
-	data:extend({mg34})
+local mg34 = table.deepcopy(data.raw["gun"]["tank-machine-gun"])
+mg34.name = "kj_mg34"
+mg34.icon = "__kj_panzer4__/graphics/equipment/mg34_icon.png"
+mg34.icon_size = 128
+mg34.attack_parameters.cooldown = 3.5
+mg34.projectile_center = {}
+mg34.order = "[basic-clips]-e[mg34]"
+mg34.flags = {}
+mg34.attack_parameters.range = 50
+mg34.attack_parameters.sound = {
+	{
+		filename = "__kj_panzer4__/sounds/mg34_1.ogg",
+		volume = 0.4,
+	},
+	{
+		filename = "__kj_panzer4__/sounds/mg34_2.ogg",
+		volume = 0.4,
+	},
+	{
+		filename = "__kj_panzer4__/sounds/mg34_3.ogg",
+		volume = 0.4,
+	},
+	{
+		filename = "__kj_panzer4__/sounds/mg34_4.ogg",
+		volume = 0.4,
+	},
+	{
+		filename = "__kj_panzer4__/sounds/mg34_5.ogg",
+		volume = 0.4,
+	},
+	{
+		filename = "__kj_panzer4__/sounds/mg34_6.ogg",
+		volume = 0.4,
+	},
+}
+data:extend({mg34})
 
 data:extend({
   

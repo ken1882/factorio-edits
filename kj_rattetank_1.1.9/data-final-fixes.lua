@@ -42,3 +42,10 @@ data.raw["fire"]["acid-splash-fire-spitter-medium"].on_damage_tick_effect.trigge
 data.raw["fire"]["acid-splash-fire-spitter-big"].on_damage_tick_effect.trigger_target_mask = nil
 data.raw["fire"]["acid-splash-fire-spitter-behemoth"].on_damage_tick_effect.trigger_target_mask = nil
 ]]
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_rattetank"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_gas_barrel"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
+end

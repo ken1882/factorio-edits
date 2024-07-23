@@ -30,7 +30,7 @@ if boolean == true then
 	data.raw["ammo"]["kj_b2_atom"].subgroup = "kj_plane_bomber_b2"
 end
 
-local aircraftMod = "military-4"
+local aircraftMod = "military-3"
 if mods["Aircraft"] then
 	aircraftMod = "advanced-aerodynamics"
 end
@@ -52,4 +52,17 @@ data.raw["technology"]["kj_b2"].prerequisites = {aircraftMod, "kj_gasoline", "lo
 
 if mods["kj_b17"] then
 	require("recipe_updates")
+end
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_b2"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_kerosine"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
+	if mods["AircraftRealism"] then
+		prototype = data.raw["car"]["kj_b2-airborne"]
+		prototype.burner.fuel_categories = {"vehicle-fuel", "kj_kerosine"}
+		prototype.burner.fuel_category = nil
+		prototype.burner.burnt_inventory_size = 1
+	end
 end

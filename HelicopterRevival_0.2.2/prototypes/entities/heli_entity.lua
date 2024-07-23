@@ -933,7 +933,8 @@ data:extend({
     inventory_size = inventory_slots,
     equipment_grid = "heli-equipment-grid",
     is_military_target = true,
-
+    render_layer = "air-object", 
+    final_render_layer = "air-object",
     animation = {
       layers = {
         {

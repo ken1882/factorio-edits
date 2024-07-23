@@ -119,15 +119,13 @@ data:extend({
     sticker_box = {{-0.75, -0.75}, {0.75, 0.75}},
     effectivity = 1,
     braking_power = "600kW", 
-	energy_source =
-	{
-		type = "burner",
-		render_no_power_icon = false,
-		fuel_inventory_size = 1,
-		effectivity = 1,
-		fuel_category = "kj_gas_can",
-		burnt_inventory_size = 1,
-	},
+    burner =
+    {
+      fuel_category = "kj_gas_can",
+      effectivity = 1,
+      fuel_inventory_size = 1,
+	    burnt_inventory_size = 1,
+    },
 	consumption = "1000kW",
     terrain_friction_modifier = 0.5,
     friction = 1,
@@ -487,7 +485,7 @@ data:extend({
 		projectile_creation_distance = 4.4,
 		projectile_center = {0, -0.8},
     min_range = 12,
-    turn_range = 0.35,
+    -- turn_range = 0.20,
 		range = 120,
 		sound = tank_gunshot,
 	},

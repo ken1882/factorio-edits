@@ -16,7 +16,7 @@ data:extend({
         recipe = "kj_baneblade_normal"
       },
     },
-    prerequisites = {"military-4"},
+    prerequisites = {"military-3"},
     unit =
     {
       count = 1000,

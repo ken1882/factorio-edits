@@ -98,9 +98,9 @@ data:extend({
     },
     rotation_speed = 0.0035,
     tank_driving = true,
-    weight = 80000,
-    consumption = "1100kW", -- "1100kW" is the min to move backwards for a weight of 80000
-    braking_power = "1100kW", --"800kW",
+    weight = 50000,
+    consumption = "1600kW", -- "1100kW" is the min to move backwards for a weight of 80000
+    braking_power = "1400kW", --"800kW",
     effectivity = 1,
     terrain_friction_modifier = 0.1,
     friction = 0.002,

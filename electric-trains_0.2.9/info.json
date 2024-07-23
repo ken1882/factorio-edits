@@ -1,0 +1,26 @@
+{
+  "name": "electric-trains",
+  "version": "0.2.9",
+  "title": "Electric Trains",
+  "author": "NerfKidJcb",
+  "factorio_version": "1.1",
+  "description": "This should be overwritten by the Factorio mod page unless you downloaded this manually. Check out the link below :)",
+  "dependencies": [
+    "base >= 1.1",
+    "? space-exploration >= 0.5.103",
+    "? Krastorio2 >= 1.2.21"
+  ],
+  "package": {
+    "ignore": [
+      ".crowdin.yml",
+      ".git",
+      ".github",
+      ".gitignore",
+      ".build",
+      "LICENSE",
+      "README.md",
+      ".kakrc",
+      ".vscode"
+    ]
+  }
+}

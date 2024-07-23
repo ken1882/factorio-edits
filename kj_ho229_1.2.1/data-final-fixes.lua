@@ -26,7 +26,7 @@ if boolean == true then
 	data.raw["ammo"]["kj_ho229_normal"].subgroup = "kj_plane_fighter_ho229"
 end
 
-local aircraftMod = "military-4"
+local aircraftMod = "military-3"
 if mods["Aircraft"] then
 	aircraftMod = "advanced-aerodynamics"
 end
@@ -45,3 +45,16 @@ data.raw["technology"]["kj_ho229"].unit =
   time = 30
 }
 data.raw["technology"]["kj_ho229"].prerequisites = {aircraftMod, "kj_gasoline", "low-density-structure"}
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_ho229"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_kerosine"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
+	if mods["AircraftRealism"] then
+		prototype = data.raw["car"]["kj_ho229-airborne"]
+		prototype.burner.fuel_categories = {"vehicle-fuel", "kj_kerosine"}
+		prototype.burner.fuel_category = nil
+		prototype.burner.burnt_inventory_size = 1
+	end
+end

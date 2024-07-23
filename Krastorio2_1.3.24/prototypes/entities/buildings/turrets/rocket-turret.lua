@@ -190,7 +190,7 @@ data:extend({
       turn_range = 1 / 6,
       projectile_creation_distance = 3.35,
       projectile_center = { 0, 0.1 },
-      range = 180,
+      range = 150,
       min_range = 35,
       rotate_penalty = 20,
       health_penalty = -100,

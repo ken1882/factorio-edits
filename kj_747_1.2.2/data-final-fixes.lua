@@ -46,3 +46,16 @@ data.raw["technology"]["kj_747"].prerequisites = {"kj_gasoline", "low-density-st
 if mods["Aircraft"] then
 	table.insert(data.raw["technology"]["kj_747"].prerequisites, "advanced-aerodynamics")
 end
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_747"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_kerosine"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
+	if mods["AircraftRealism"] then
+		prototype = data.raw["car"]["kj_747-airborne"]
+		prototype.burner.fuel_categories = {"vehicle-fuel", "kj_kerosine"}
+		prototype.burner.fuel_category = nil
+		prototype.burner.burnt_inventory_size = 1
+	end
+end

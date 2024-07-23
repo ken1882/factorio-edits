@@ -41,3 +41,10 @@ if mods["space-exploration"] then
     }
 	data.raw["technology"]["kj_40kpredator"].prerequisites = {"tank", "kj_gasoline"}	
 end
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_40kpredator"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_gas_barrel"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
+end

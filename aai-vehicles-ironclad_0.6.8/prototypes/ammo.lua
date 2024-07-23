@@ -95,7 +95,7 @@ data:extend({
             {
               type = "damage",
               damage = {
-                amount = 150,
+                amount = 250,
                 type = "explosion"
               },
             },
@@ -135,7 +135,7 @@ data:extend({
           target_effects = {
             {
               type = "damage",
-              damage = { type = "explosion", amount = 50 },
+              damage = { type = "explosion", amount = 150 },
             },
             {
               type = "create-entity",
@@ -274,7 +274,7 @@ data:extend({
             {
               type = "damage",
               damage = {
-                amount = 150,
+                amount = 250,
                 type = "explosion"
               },
             },
@@ -314,7 +314,7 @@ data:extend({
           target_effects = {
             {
               type = "damage",
-              damage = { type = "explosion", amount = 100 },
+              damage = { type = "explosion", amount = 200 },
             },
             {
               type = "create-entity",

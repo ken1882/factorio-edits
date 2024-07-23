@@ -49,7 +49,7 @@ data:extend({
       movement_slow_down_factor = 0,
       projectile_creation_distance = projectile_creation_distance,
       projectile_center = projectile_center,
-      range = 180,
+      range = 150,
       sound = sounds.tank_gunshot
     },
     stack_size = 1

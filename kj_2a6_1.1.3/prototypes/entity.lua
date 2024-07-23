@@ -1034,7 +1034,7 @@ data:extend({
     rotation_speed = 0.0048,
     tank_driving = true,
     weight = 62000,
-    inventory_size = 40,
+    inventory_size = 60,
     guns = {"kj_rh120", "kj_mg3"},
     turret_rotation_speed = 0.22 / 60,
     turret_return_timeout = 300,

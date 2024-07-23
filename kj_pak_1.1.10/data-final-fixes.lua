@@ -35,3 +35,10 @@ data.raw["ammo"]["kj_pak_incendiary"].ammo_type.action.action_delivery.max_range
 
 data.raw["gun"]["kj_pak_gun"].attack_parameters.range = settings.startup["kj_pak_range"].value
 data.raw["ammo-turret"]["kj_pak_turret"].attack_parameters.range = settings.startup["kj_pak_range"].value
+
+if mods["Krastorio2"] then
+	prototype = data.raw["car"]["kj_pak"]
+	prototype.burner.fuel_categories = {"vehicle-fuel", "kj_gas_can"}
+	prototype.burner.fuel_category = nil
+	prototype.burner.burnt_inventory_size = 1
+end
