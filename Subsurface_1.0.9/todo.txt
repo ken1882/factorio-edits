@@ -1,0 +1,53 @@
+uranium ore, better oil fields only in subsurfaces
+underground lvl 1 not available under oil fields and water
+Different textures for different subsurface levels (e.g., stone for the second level, darker textures for deeper levels).
+unbreakable Rock-Spots (biome patches)
+Rocket silo construction, stage 1 clears subsurface
+rocket-silo needs drilling (like RSC but not that much)
+find abandoned shelters (as secret) but as sealed entrance from above
+smoke/smog in polluted chunks
+rocket silos cant be placed above exposed underground and underground cant digged when there is a rocket silo above
+support for https://mods.factorio.com/mod/AbandonedRuins
+Biters https://mods.factorio.com/mod/Subsurface/discussion/65cd6a8f4294e70fb2eeaca3 dig to both exposed and unexposed (not really, spawn when players dig to them) chunks
+biters are harder in underground (respect peaceful mode!)
+better tech and recipe cost
+alien biomes integration (rocks and ground tiles), rock decals on the ground, migration regenerate_decoratives(), Krastorio graphics, EIGENE noise exp, erst rock-small autoplace to ne
+drilling efficiency (stone amount) depends on terrain
+areas of "hard" stone (or like minecraft, below layer 3)
+"camera" (drone) entity that enables map view of underground; remote view like se and integration into its gui bottom left
+aai zones, miners
+surface drilling tech needs electrical minig drill
+subsurface walls and entrance/exit vulnerable to explosion, on_entity_died (dont show damage indicator)
+smoke (and pollution) when sealing
+achievements
+menu simulation, if the community grows
+vehicle elevator (rocket silo door sound)
+pollution fix
+vent and elevator placement requires boring
+elevator indicator directly on the entity (rendering sprite)
+informatron page which explains which resource is where
+lava in 3rd or deeper level
+terrain adaption to SE climates
+caveground transitions nur mit out-of-map, auch cavewalls grafik benutzen
+crude oil random probability check, Kanidaten von topsurface kopieren
+
+Resources:
+- SE planets have no ores, they are all in the underground
+- prospector: find possible patch candidates but also nulls (reliability research in percent)
+- another prospector that works underground (gives direction and distance)
+smaller patches on top surfaces, bigger ones deeper at the same position
+vulcanite only in underground (small patches on top)
+keep ore prospector to predict richness and size and level
+bz diamond always ug
+
+Surface drill:
+- create small holes and smoke while drilling (graphics_set)
+- slowly clear subsurface randomly in given area, resource patch amount is reduced proportionally
+- deeper( from lvl 1) drillings needs fluids
+- lubricant as maintenance
+- like RSC, some items (steel, concrete, lamp) which are actually used for the elevator (maxbe turn to fluid)
+- light source on both ends
+- invisible mining drill, visible assembler?
+- maintenance chest and pipe, content and descr. in drill gui
+select what to drill (elev. vehicle elev., fluid/item/heat elev)
+https://mods.factorio.com/mod/Subsurface/discussion/662a34c2dca04e67ffc46d23
