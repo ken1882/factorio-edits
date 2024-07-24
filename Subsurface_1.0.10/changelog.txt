@@ -10,6 +10,10 @@ Date: 2024-06-03
     - Fixed crash when creating or prospecting subsurfaces without autoplaced resources
     - Handle the case when mods exceed tile limit of 256
     - When starting SE remote view while in subsurface it shows the corresponding planet
+  Information:
+    - Edited to disable enemies 
+    - Edited to lift mahcine inefficiency underground due to pollution
+    - Edited to reduce player underground pollution damage by 80%
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.9
 Date: 2024-05-08

@@ -6,13 +6,13 @@ require "scripts.cutscene"
 require "scripts.aai-miners"
 require "scripts.resources"
 require "scripts.elevators"
-require "scripts.enemies"
+-- require "scripts.enemies"
 
 max_pollution_move_active = 128 -- the max amount of pollution that can be moved per 64 ticks from one surface to the above
 max_pollution_move_passive = 64
 
 suffocation_threshold = 400
-suffocation_damage = 2.5 -- per 64 ticks (~1 second)
+suffocation_damage = 0.5 -- per 64 ticks (~1 second)
 attrition_threshold = 150
 attrition_types = {"assembling-machine", "reactor", "mining-drill", "generator", "inserter", "burner-generator", "car", "construction-robot", "lab", "loader", "loader-1x1", "locomotive", "logistic-robot", "power-switch", "pump", "radar", "roboport", "spider-vehicle", "splitter", "transport-belt"}
 
@@ -30,8 +30,8 @@ function setup_globals()
 	global.support_lamps = global.support_lamps or {}
 	global.placement_indicators = global.placement_indicators or {}
 	global.selection_indicators = global.selection_indicators or {}
-	global.next_burrowing = global.next_burrowing or game.map_settings.enemy_expansion.max_expansion_cooldown
-	if not global.enemies_above_exposed_underground then init_enemies_global() end
+	-- global.next_burrowing = global.next_burrowing or game.map_settings.enemy_expansion.max_expansion_cooldown
+	-- if not global.enemies_above_exposed_underground then init_enemies_global() end
 end
 
 script.on_init(function()
@@ -136,7 +136,7 @@ function get_subsurface(surface, create)
 			
 			if remote.interfaces["blackmap"] then remote.call("blackmap", "register", subsurface) end
 			
-			global.enemies_above_exposed_underground[surface.index] = {}
+			-- global.enemies_above_exposed_underground[surface.index] = {}
 			
 		end
 		global.subsurfaces[surface.index] = subsurface
@@ -218,7 +218,7 @@ function clear_subsurface(surface, pos, radius, clearing_radius)
 		end
 	end
 	
-	find_enemies_above(surface, pos, radius)
+	-- find_enemies_above(surface, pos, radius)
 	
 	return walls_destroyed
 end
@@ -265,9 +265,9 @@ script.on_event(defines.events.on_tick, function(event)
 			--end
 			
 			-- machine inefficiency due to pollution
-			for _,e in ipairs(subsurface.find_entities_filtered{type=attrition_types}) do
-				if subsurface.get_pollution(e.position) > attrition_threshold and math.random(5) == 1 then e.damage(e.prototype.max_health*0.01, game.forces.neutral, "physical") end
-			end
+			-- for _,e in ipairs(subsurface.find_entities_filtered{type=attrition_types}) do
+			-- 	if subsurface.get_pollution(e.position) > attrition_threshold and math.random(5) == 1 then e.damage(e.prototype.max_health*0.01, game.forces.neutral, "physical") end
+			-- end
 			
 		end
 		
@@ -326,7 +326,7 @@ script.on_event(defines.events.on_tick, function(event)
 	-- handle miners
 	if remote.interfaces["aai-programmable-vehicles"] and event.tick % 10 == 0 then handle_miners(event.tick) end
 	
-	if event.tick % 20 == 0 and not settings.global["disable-autoplace-manipulation"].value and game.map_settings.enemy_expansion.enabled then handle_enemies(event.tick) end
+	-- if event.tick % 20 == 0 and not settings.global["disable-autoplace-manipulation"].value and game.map_settings.enemy_expansion.enabled then handle_enemies(event.tick) end
 end)
 
 function cancel_placement(entity, player_index, text)
