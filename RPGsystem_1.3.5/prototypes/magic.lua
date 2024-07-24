@@ -116,7 +116,7 @@ data:extend({
 
           {
             type = "damage",
-            damage = {amount = 100, type = "fire"}
+            damage = {amount = 300, type = "fire"}
           },
           {
             type = "create-entity",
@@ -219,7 +219,7 @@ data:extend({
 
           {
             type = "damage",
-            damage = {amount = 100, type = "electric"}
+            damage = {amount = 1000, type = "electric"}
           },
                   {
                     type = "create-particle",

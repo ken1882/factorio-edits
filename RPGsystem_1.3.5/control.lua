@@ -1341,7 +1341,7 @@ if player.character and player.character.valid then
 			if LV>2 then table.insert(weap,'slowdown-capsule') end
 			if LV>4 then table.insert(weap,'poison-capsule') end
 			if LV>6 then table.insert(weap,"rpg_fireaball") end
-			if LV>8 then table.insert(weap,'cluster-grenade') end
+			if LV>8 then table.insert(weap,'destroyer-capsule') end
 			if LV>10 then table.insert(weap,"rpg_hadouken") end			
 			
 			
