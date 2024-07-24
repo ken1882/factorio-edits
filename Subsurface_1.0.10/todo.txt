@@ -1,0 +1,63 @@
+Different textures for different subsurface levels (e.g., stone for the second level, darker textures for deeper levels).
+unbreakable Rock-Spots (biome patches)
+regularily earthquakes which destroys all areas where there is no support 10 tiles away
+Rocket silo construction, stage 1 clears subsurface
+rocket-silo needs drilling (like RSC but not that much)
+find abandoned shelters (as secret) but as sealed entrance from above; destroyed train tracks leading to mysterious places
+smoke/smog in polluted chunks
+rocket silos cant be placed above exposed underground and underground cant digged when there is a rocket silo above
+support for https://mods.factorio.com/mod/AbandonedRuins
+Biters https://mods.factorio.com/mod/Subsurface/discussion/65cd6a8f4294e70fb2eeaca3 dig to both exposed and unexposed (not really, spawn when players dig to them) chunks
+better tech and recipe cost
+drilling efficiency (stone amount) depends on terrain
+areas of "hard" stone (or like minecraft, below layer 3)
+"camera" (drone (character)) entity that enables map view of underground; remote view like se and integration into its gui bottom left
+aai zones, miners
+entrance/exit vulnerable to explosion, on_entity_died (dont show damage indicator)
+achievements
+menu simulation, if the community grows
+vehicle elevator (rocket silo door sound)
+pollution fix
+vent and elevator placement requires boring
+elevator indicator directly on the entity (rendering sprite)
+informatron page which explains which resource is where
+geothermal power (https://mods.factorio.com/mod/Geothermal), only resource placement, -> then prevent reactors
+walls mined over ore give that ore
+level indicator on exit? (maybe on the floor in front of it in the style of textplates)
+real elevator/ladder (multiple levels at one position)
+placing normal walls near ss walls removes them and makes out-of map. removing them needs to re-set ss wall
+black map, maybe just specific spots, restrict max. zoom level?
+Dungeon Keeper: detect rooms, then create an invisible beacon for just one entity, attatch it...search for wall in 3 tiles distance of each tile to identify room
+erdbeben, seismische scanner (worm attack)
+
+Resources:
+- SE planets have no ores, they are all in the underground (show info in universe gui)
+- prospector: find possible patch candidates but also nulls (reliability research in percent)
+- another prospector that works underground (gives direction (and distance) of the nearest patch...Later add techs that search for one specific resource)
+smaller patches on top surfaces, bigger ones deeper at the same position
+vulcanite only in underground (small patches on top)
+keep ore prospector to predict richness and size and level
+bz diamond always ug
+crude oil random probability check, Kanidaten von topsurface kopieren
+uranium ore, better oil fields only in subsurfaces
+underground lvl 1 not available under oil fields and water
+
+
+Mapgen:
+lava in 3rd or deeper level
+terrain adaption to SE climates
+caveground transitions nur mit out-of-map, auch cavewalls grafik benutzen
+alien biomes integration (rocks and ground tiles), rock decals on the ground, migration regenerate_decoratives(), Krastorio graphics, EIGENE noise exp, erst rock-small autoplace to ne
+
+Surface drill:
+- create small holes and smoke while drilling (graphics_set)
+- slowly clear subsurface randomly in given area, resource patch amount is reduced proportionally
+- deeper( from lvl 1) drillings needs fluids
+- lubricant as maintenance
+- like RSC, some items (steel, concrete, lamp) which are actually used for the elevator (maxbe turn to fluid)
+- light source on both ends
+- invisible mining drill, visible assembler?
+- maintenance chest and pipe, content and descr. in drill gui
+select what to drill (elev. vehicle elev., fluid/item/heat elev)
+4x4 size https://mods.factorio.com/mod/Subsurface/discussion/662a34c2dca04e67ffc46d23
+surface drilling tech needs electrical minig drill
