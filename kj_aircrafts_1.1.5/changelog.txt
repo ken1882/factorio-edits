@@ -1,0 +1,32 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 30.06.2024
+  Changes:
+    - gave all planes a maximum speed
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 21.07.2022
+  Changes:
+    - added support for Boeing 747
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 01.05.2022
+  Fixes:
+    - made airborne planes into military targets to ensure that they are still targetable in other mods that might use them as drones
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 05.03.2022
+  Fixes:
+    - fixed the takeoff speed reset message after updating the planes to >= 1.2.1. being thrown on each mod change
+    - with a really cheap fix hehe
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 05.03.2022
+  Fixes:
+    - fixed typo that led to major loading errors
+    - Corrected changelog of 1.1.0
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 05.03.2022
+  Changes:
+    - Initial Release

@@ -1,0 +1,20 @@
+{
+  "item":
+  [
+    ["se-nano-material", "se-nanomaterial"],
+    ["se-enriched-naquium", "se-naquium-cube"],
+    ["se-universal-catalogue", "se-deep-catalogue-1"],
+    ["se-deep-space-science-pack", "se-deep-space-science-pack-1"]
+  ],
+  "recipe":
+  [
+    ["se-nano-material", "se-nanomaterial"],
+    ["se-deep-space-science-pack", "se-deep-space-science-pack-1"]
+  ],
+  "technology":
+  [
+    ["se-nano-material", "se-nanomaterial"],
+    ["se-deep-space-science-pack", "se-deep-space-science-pack-1"],
+    ["se-deep-space-science-pack-enriched", "se-deep-space-science-pack-1"]
+  ]
+}

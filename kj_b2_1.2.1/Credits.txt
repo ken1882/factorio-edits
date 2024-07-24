@@ -1,5 +1,0 @@
-3D-Models:
-	"B-2 Spirit" (https://skfb.ly/6vRBR) by overlordchaos is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-Sounds:
-	Engine: War Thunder

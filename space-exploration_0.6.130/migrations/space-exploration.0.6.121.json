@@ -1,9 +1,0 @@
-{
-    "recipe":
-    [
-        ["oxygen", "dummy-migration-recipe-oxygen"],
-        ["nitrogen", "dummy-migration-recipe-nitrogen"],
-        ["kr-water-electrolysis", "dummy-migration-recipe-kr-water-electrolysis"],
-        ["kr-water-separation", "dummy-migration-recipe-kr-water-separation"]
-    ]
-}

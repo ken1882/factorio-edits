@@ -1,6 +1,0 @@
-3D-Models:
-	https://3dwarehouse.sketchup.com/model/cb8e09c1d3fc91195aaeb6166f38e51e/Warhammer-Imperial-Baneblade by Matthew
-
-Sounds:
-	Bolter: https://gamebanana.com/sounds/19225
-	Gun: Crossout

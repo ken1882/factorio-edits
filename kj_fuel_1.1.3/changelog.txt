@@ -1,0 +1,26 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 25.06.2024
+  Changes:
+    - empty gas can icon improved
+  Fixes:
+    - hiding compatibility item
+    - added item group locale in the hope this fixes a lot of cases
+    - added compatibility item locale
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 06.05.2023
+  Changes:
+    - added energy cell for sci fi vehicles
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 18.08.2021
+  Changes:
+    - changed some locale strings
+  Fixes:
+    - fixed the german tech description being in english
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 30.06.2021
+  Changes:
+    - Initial Release

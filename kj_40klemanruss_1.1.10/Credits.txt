@@ -1,9 +1,0 @@
-3D-Models:
-	"Warhammer 40k LemanRuss dark millennium" (https://skfb.ly/6VFoO) by Rinzler is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-
-Icons:
-	Bolter Icon: https://mods.factorio.com/mod/Wh40k_Armoury
-
-Sounds:
-	Gun: Crossout
-	Bolter: https://gamebanana.com/sounds/19225
