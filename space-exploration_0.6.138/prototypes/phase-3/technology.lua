@@ -165,10 +165,16 @@ end
 do
   -- data.raw.technology["automation-3"].prerequisites = {data_util.mod_prefix .. "space-assembling", "space-science-pack"}
   data_util.tech_remove_prerequisites("automation-3", {"production-science-pack"})
-  data_util.tech_remove_ingredients("automation-3", {"utility-science-pack", "production-science-pack"})
+  data_util.tech_remove_ingredients("automation-3", {"basic-tech-card", "utility-science-pack", "production-science-pack"})
   -- data_util.tech_add_ingredients("automation-3", {"space-science-pack"})
   data_util.tech_add_prerequisites("automation-3", { data_util.mod_prefix .. "rocket-science-pack" })
-  data_util.tech_add_ingredients("automation-3", { data_util.mod_prefix .. "rocket-science-pack" }, true)
+  data_util.tech_add_ingredients("automation-3", { data_util.mod_prefix .. "rocket-science-pack", "chemical-science-pack" }, true)
+  
+  -- bobs
+  if data.raw.technology["automation-4"] then
+    data.raw.technology["automation-4"].prerequisites = {data_util.mod_prefix .. "space-assembling", "space-science-pack"}
+    data_util.tech_add_ingredients("automation-4", {"space-science-pack"})
+  end
 
   data.raw.technology["logistics-3"].prerequisites = {data_util.mod_prefix .. "space-belt", "space-science-pack"}
   data_util.tech_remove_prerequisites("logistics-3", {"production-science-pack"})
