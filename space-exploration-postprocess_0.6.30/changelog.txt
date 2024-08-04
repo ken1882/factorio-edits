@@ -1,0 +1,1062 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.6.30
+Date: 25. 05. 2024
+  Changes:
+    - Updated load fail diagnostics with the latest SE version's dependencies.
+    - Removed some compatibility code related to teleporter mods, moved to be handled in the main SE mod.
+
+  Compatibility:
+    - Added some small amount of code to give a nice tooltip for the Advanced Condenser Turbine
+
+  Locale:
+    - Updated Czech translation thanks to Asyps.
+    - Updated Spanish translation thanks to Spiderlove.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.29
+Date: 19. 04. 2024
+  Changes:
+    - Updated load fail diagnostics with the latest SE version's dependencies.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.28
+Date: 03. 03. 2024
+  Changes:
+    - Removed many duplicate locale keys which have now been moved to the main SE mod. This fixes some recipe/item name issues with SEK2.
+    - Updated load fail diagnostics with the latest SE version's dependencies.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.27
+Date: 11. 11. 2023
+  Changes:
+    - Updated load fail diagnostics with the latest SE version's dependencies.
+
+  Locale:
+    - Added Vietnamese translation thanks to DTA.
+    - Updated Russian translation, thanks to Shadow_Man.
+    - Updated Japanese translation, thanks to YAMATO_hajime, neya, KazuhaSan.
+    - Updated German translation, thanks to mape6.
+    - Updated French translation, thanks to bev.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.26
+Date: 04. 05. 2023
+  Changes:
+    - Tweaked diagnostic message when space-exploration is disabled.
+
+  Compatibility:
+    - Small tweak regarding teleporter mods. Attempt to move more teleporter mods behind SE's "teleportation" tech instead of using a hardcoded list.
+    - Removed the CursedFMD migration patch (added in 0.6.15) which is no longer needed and caused some issues with other mods (e.g. GhostOnWater).
+
+  Locale:
+    - Updated Korean translation, thanks to Ruri.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.25
+Date: 04. 03. 2023
+  Bugfixes:
+    - Fixed missing high temperature turbine detailed description.
+
+  Locale:
+    - Updated German translation, thanks to mape6.
+    - Updated Japanese translation, thanks to YAMATO_Hajime.
+    - Updated Russian translation, thanks to Shadow_Man.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.24
+Date: 22. 01. 2023
+  Compatibility:
+    - [K2] Updates to compatibility, for more details see the associated change log for Space Exploration version 0.6.97.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.23
+Date: 11. 01. 2023
+  Changes:
+    - Updated load fail diagnostics.
+
+  Locale:
+    - Added Korean translation, thanks to Ruri.
+    - Updated German translation, thanks to mape6.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.22
+Date: 20. 12. 2022
+  Bugfixes:
+    - Added tiles that collide with flying characters to the list of tiles that can't be removed by nukes.
+  Locale:
+    - Updated German translation, thanks to bNarFProfCrazy.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.21
+Date: 16. 12. 2022
+  Changes:
+    - Updated load fail diagnostics.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.20
+Date: 11. 10. 2022
+  Changes:
+    - Updated load fail diagnostics.
+
+  Compatibility:
+    - [K2] Fix crash when nuclear locomotive tech doesn't exist.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.19
+Date: 20. 09. 2022
+  Changes:
+    - Updated load fail diagnostics.
+    - Turbine sound and animation tweaks.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.18
+Date: 27. 07. 2022
+  Bugfixes:
+    - Fixed diagnostics not handling mods with a space in their id.
+    - Fixed diagnostics message error when there are too many problems at once.
+
+  Compatibility:
+    - [K2] Update the Iron/Copper Ore to Plate recipe to take the correct amount of time for the number of plates produced.
+    - [K2] Update science pack assignment to labs to not overwrite other available science packs.
+    - [K2] Space Science Lab tech cost updated to add the Space Science Pack.
+    - [K2] Add the "Melting" crafting category to the Advanced Chemical Plant.
+    - [K2] Remove the final Refined Explosive tech prerequisite for Artillery Shell Shooting Speed and Artillery Shell Range techs.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.17
+Date: 13. 07. 2022
+  Compatibility:
+    - [K2] Corrected the position of the Singularity Lab in the Tech Tree.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.16
+Date: 12. 07. 2022
+  Bugfixes:
+    - [Bob's] Fix load error when playing with some but not all of Bob's mods.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.15
+Date: 12. 07. 2022
+  Changes:
+    - Invalid SE installations will now trigger a clearer diagnostics message in the menu background or as an error on game start.
+    - Added procedurally generated description for pylons, detailing their full states on all instances of the object.
+
+  Compatibility:
+    - [Bob's] Changed cargo pod recipe to fix softlock when using Bob's inserter overhaul (Thanks jdi).
+    - [Cursed Filter Mining Drills] Fixed resources disappearing during SE 0.6 migration (Thanks robot256).
+
+  Locale:
+    - Updated Spanish translation thanks to Spiderlove.
+    - Updated Russian translation thanks to Shadow_Man.
+    - Added French translation thanks to bev.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.14
+Date: 09. 07. 2022
+  Locale:
+    - Added German translation, thanks to ChironMZ.
+
+  Compatibility:
+    - [K2] Lithium assisted fabrication of Electronic Components can now take Productivty.
+    - [K2] Holmium Cable can be made in the Advanced Assembler again.
+    - [K2] AAI Container costs are adjusted when K2 is enabled, even if K2 Containers are disabled.
+    - [K2] Repalce Iron Plates with Lithium in the Proton Stream recipe.
+    - [K2] Blank Tech Card added to the Rocket Tech Card recipe.
+    - [K2] Mk2 and Mk3 Battery equipments have adjusted recipes.
+    - [K2] Mk3 Battery equipment tech now requires Superconductive Cable tech.
+    - [K2] K2 Container and AAI Container costs are further harmonized.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.13
+Date: 06. 07. 2022
+  Compatibility:
+    - [K2] Adjust Speed, Production and Efficiency module 1-3 costs.
+
+  Bugfixes:
+    - [K2] Singularity Beacon no longer needed to place Compact Beacon 1 in Blueprints.
+
+  Locale:
+    - Updated Russian translation, thanks to Shadow_Man.
+    - Updated Spanish translation, thanks to SpiderLove.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.12
+Date: 04. 07. 2022
+  Compatibility:
+    - [K2] Lithium electronic component recipe no longer is unintentionally unlocked at the start of the game.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.11
+Date: 01. 07. 2022
+  Compatibility:
+    - [K2] Fix migration of advanced beacons to preserve modules.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.10
+Date: 30. 06. 2022
+  Compatibility:
+    - [K2] Adjust Radar and Advanced Radar tech costs.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.9
+Date: 27. 06. 2022
+  Compatibility:
+    - [K2] If playing with Krastorio 2 the minimum version is now 1.3.1.
+    - [K2] Adjusted science pack progression to account for the new Rocket Science Pack.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.8
+Date: 22. 06. 2022
+  Changes:
+    - Removed automatic replacement of space science pack.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.7
+Date: 18. 06. 2022
+  Bugfixes:
+    - [K2] Account for K2 settings removing certain entities and items when disabled and prevent crashed from occuring due to this.
+
+  Compatibility:
+    - [K2 Miscellaneous] Adjust ingredients of Speed, Production and Effectivity Modules 1, 2 and 3.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.6
+Date: 08. 06. 2022
+  Compatibility:
+    - [K2] If playing with Krastorio 2 the minimum version is now 1.3.0
+    - [K2] Advanced Beacon entities are removed and a wooden box is placed at their location containing their modules and a Compact Beacon.
+    - [K2] Allow the Atmospheric Condenser of waterless worlds, these Condensers do not have the ability to produce water.
+    - [K2] Adjust the Research Server and Advanced Research Server technologies and recipes to accomodate their new role.
+    - [K2 Matter] Introduce data driven Matter Science Pack 1 and 2.
+    - [K2 Matter] Overhaul Matter Fusion and Matter Processing for better integration.
+    - [K2 Miscellaneous] Adjust ingredients for the Anti-Creep Virus and Anti-Biter Virus Capsules.
+    - [K2 Miscellaneous] Add Optimization Tech Card to the Simulation technologies.
+    - [K2 Miscellaneous] Adjust ingredients of the Railgun, Rocket and Laser Artillery Turret technologies.
+    - [K2 Miscellaneous] Add Holmium Cable to the recipe for the Substation Mk2.
+    - [K2 Miscellaneous] Adjust ingredients of the Substation Mk2 technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Advanced Fuel technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Shield equipment technologies.
+    - [K2 Miscellaneous] Adjust ingredients of the Advanced Solar Panel equipment technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Energy Control Unit technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Personal Laser Defence Mk3 and Mk4 technologies.
+    - [K2 Miscellaneous] Adjust ingredients of the Superior Robot Battery technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Portable Fusion and Portable Singularity Reactor technologies.
+    - [K2 Miscellaneous] Adjust ingredients of the Advanced Furnace technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Imersite Weapons technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Advanced Assembling Machine technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Superior Exoskeleton technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Tank technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Superior Inserter technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Improved Pollution Filter technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Advanced Roboports technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Power Armour Mk3 and Mk4 technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Electric Miner Mk3 technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Teleportation technologies.
+    - [K2 Miscellaneous] Adjust ingredients of the Matter Cube technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Singularity Reactor technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Intergalactic Transceiver technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Singularity Lab technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Energy Storage technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Supercomputer 4 technology.
+    - [K2 Miscellaneous] Adjust ingredients of the Nexus technology.
+    - [K2 Miscellaneous] Harmonize the K2 recipes with the AAI recipes for larger storages.
+    - [K2 Miscellaneous] Bring K2s Steel plate recipe in line with SE ingredient quantities.
+    - [K2 Miscellaneous] Replace the Efficient Fabrication tech with seperate technologies unlocked by Energy Science Pack 1.
+    - [K2 Miscellaneous] Stop overwriting Production and Utility icons with the Krastorio 2 graphics.
+    - [K2 Miscellaneous] Adjust Production and Utility Science Pack recipes to include some of the Krastorio 2 ingredients.
+    - [K2 Miscellaneous] Adjust Iridium and Holmium integration with Krastorio 2s washing loop.
+    - [K2 Miscellaneous] Ensure Artillery Shell Range tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Adjust Artillery Shell Range upgrade amount to account for more techs existing.
+    - [K2 Miscellaneous] Ensure Artillery Shell Shooting Speed tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Adjust Artillery Shell Shooting Speed upgrade amount to account for more techs existing.
+    - [K2 Miscellaneous] Ensure Energy Weapons Damage tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Adjust Energy Weapons Damage upgrade amount to account for more techs existing.
+    - [K2 Miscellaneous] Ensure Mining Productivity tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Ensure Worker Robot Speed tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Adjust Worker Robot Speed upgrade amount to account for more techs existing.
+    - [K2 Miscellaneous] Ensure Physical Projectile Damage tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Adjust Physical Projectile Damage upgrade amount to account for more techs existing.
+    - [K2 Miscellaneous] Ensure Refined Flammables tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Adjust Refined Flammables upgrade amount to account for more techs existing.
+    - [K2 Miscellaneous] Ensure Stronger Explosives tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Adjust Stronger Explosives upgrade amount to account for more techs existing.
+    - [K2 Miscellaneous] Ensure Follower Robot Count tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Ensure Spaceship Structural Integrity tech respects the new Science Pack progression.
+    - [K2 Miscellaneous] Changed setting default for "Increase stack sizes" to "No change".
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.5
+Date: 24. 05. 2022
+  Changes:
+    - Reduced satellite telemetry returns (pairs with satellite launch cost reduction).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.4
+Date: 24. 05. 2022
+  Changes:
+    - Code shuffle for utility and production science pack overrides.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.3
+Date: 15. 05. 2022
+  Changes:
+    - Partial update for k2 advanced beacon.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.2
+Date: 09. 05. 2022
+  Changes:
+    - Code change to read module craft times from the main mod.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.31
+Date: 09. 05. 2022
+  Changes:
+    - [K2 Equipment] Move Imersite Weapons tech to be unlocked by the Optimization Tech Card, Energy Science Pack 1 and Material Science Pack 1.
+    - [K2 Equipment] Adjust cost and requirements of the Portable Fusion Reactor and Portable Singularity Reactor techs.
+    - [K2 Equipment] Add Energy Control Unit, Holmium Solenoid and Heavy Bearing tech as requirements for the Tank tech.
+    - [K2 Equipment] Adjust the cost of the Tank.
+    - [K2 Matter] Add Matter Fusion recipes for Raw Rare Metals and Raw Imersite.
+    - [K2 Matter] Split Matter Fusion tech into two levels, non-homeworld recipes are now locked behind the second technology.
+    - [K2 Matter] Replace Fusion Test Data with Quark Data in Iron, Copper, Stone, Uranium and Rare Metal Matter Fusion recipes.
+    - [K2 Matter] Add Antimatter Production tech as a requirement for Matter Processing.
+    - [K2 Matter] Add Matter Fusion 2 tech as a requirement for Antimatter Production.
+    - [K2 Matter] Add Deep Space Science Pack 2 to the cost of Matter Processing and its children techs.
+    - [K2 Matter] Add Astronomic Science Pack 4, Energy Science Pack 4, Material Science Pack 4 and Deep Space Science Pack 1 as a cost to Antimatter Ammo tech.
+    - [K2 Matter] Replace Charged Antimatter Fuel Cells with Antimatter Canisters for antimatter weaponry.
+    - [K2 Singularity] Rename Antimatter from K2 to Singularity in all instances.
+    - [K2 Miscellaneous] Add Rocket Science Pack tech as a cost to the Advanced Solar Panel tech.
+    - [K2 Miscellaneous] Replace Rocket Science Pack with Energy Science Pack 1 as a requirement for Flat Solar Panel 1 tech.
+    - [K2 Miscellaneous] Adjust cost of Flat Solar Panel and Flat Solar Panel 2.
+    - [K2 Miscellaneous] Add a fluid void recipe for the new dirty water.
+    - [K2 Miscellaneous] Rebalance the cost of each Artillery Shell Shooting Speed tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Artillery Shell Range tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Mining Productivity tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Energy Weapons Damage tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Worker Robot Speed tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Physical Projectile Damage tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Refined Flammables tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Stronger Explosives tech.
+    - [K2 Miscellaneous] Rebalance the cost of each Robot Follower Count tech.
+    - [K2 Miscellaneous] Add Landfill recipes for Raw Rare Metals and Raw Imersite.
+    - [K2 Miscellaneous] Add Raw Rare Metals to Meteors.
+    - [K2 + Realistic Fusion Power] Adjust Used Fuel Cell Reprocessing adjustments for better compatability with Realistic Fusion Power.
+  Bugfixes:
+    - [K2 Advanced] Replace Energy Science Pack 4 tech with Dynamic Emitter tech as a requirement for Electric Mining Drill Mk3 tech.
+    - [K2 Adcanced] Add Heavy Composite tech as a requirement for Electric Mining Drill Mk3.
+    - [K2 Equipment] Remove Quarry Mineral Extraction tech as a requirement for the Military 5 tech.
+    - [K2 Equipment] Add Quarry Mineral Extraction tech as a requirement for the Anti-Creep Virus tech.
+    - [K2 Equipment] Replace Astronomic Science Pack 2 tech with Aeroframe Scaffold tech as a requirement for Superior Exoskeleton tech.
+    - [K2 Equipment] Replace Material Science Pack 2 tech with Heavy Bearing tech as a requirement for Superior Exoskeleton tech.
+    - [K2 Equipment] Add Speed Module 5 as a requirement for Superior Exoskeleton tech.
+    - [K2 Equipment] Replace Biological Science Pack 1 with Biological Science Pack 3 in the Thruster Suit 4 tech.
+    - [K2 Matter] Replace Energy Science Pack 4 with Energy Science Pack 3 in the Matter Tech Card tech cost.
+    - [K2 Matter] Add Energy Science Pack 4 as a requirement for the Matter Fusion tech.
+    - [K2 Singularity] Remove Naquium Processor tech as a requirement for the Wide Area Beacon 2 tech.
+    - [K2 Singularity] Repalce Deep Space Science Pack 2 with Deep Space Science Pack 3 in the Wide Area Beacon 2 tech.
+    - [K2 Material] Replace Material Science Pack 2 tech with Heavy Bearing tech as a requirement for Logistics 5 tech.
+    - [K2 Miscellaneous] Remove Imersite Processing tech as a requirement for the Laser Artillery Turret tech.
+    - [K2 Miscellaneous] Replace Astronomic Science Pack 2 tech with Aeroframe Scaffold tech as a requirement for the Superior Inserters tech.
+    - [K2 Miscellaneous] Repalce Material Science Pack 2 tech with Heavy Bearing tech as a requirement for the Superior Inserters tech.
+    - [K2 Miscellaneous] Allow productivity on the Optimization Research Data recipe.
+    - [K2 Miscellaneous] Add Railgun damage increases to Physical Projectile Damage 11 and 12.
+    - [K2 Miscellaneous] Add missing damage improvements to Energy Weapons Damage 11 and 12.
+    - [K2 Miscellaneous] Remove extra Artillery Shell Range increases from Artillery Shell Range 1 and 2.
+    - [K2 Miscellaneous] Remove Basic Tech Card from the cost of the Advanced Radar tech.
+    - [K2 Miscellaneous] Remove Optimization Tech Card from the cost of Mining Productivity 5 tech.
+    - [K2 Miscellaneous] Remove Deep Space Science Pack 1 from the cost of Mining Productivity 10 tech.
+    - [K2 Miscellaneous] Remove Deep Space Science Pack 2 from the cost of Mining Productivity 11 tech.
+    - [K2 Miscellaneous] Remove Optimization Tech Card from the cost of Artillery Shell Shooting Speed 4 tech.
+    - [K2 Miscellaneous] Remove Energy Control Unit tech as a requirement for the Advanced Assembler tech.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.30
+Date: 18. 04. 2022
+  Changes:
+    - Diagnostics message pointing out mod incompatibilities will now also print in the game chat, in addition to the log file.
+
+  Bugfixes:
+    - Fixed a secret technology that was accidentally moved to DSS4 instead of DSS3.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.29
+Date: 17. 02. 2022
+  Compatibility:
+    - Added support for Krastorio 2 v1.2.22+ matter recipes without input catalyst.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.28
+Date: 16. 02. 2022
+  Changes:
+    - Increased the selection priority of spidertons.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.27
+Date: 02. 01. 2022
+  Compatibility:
+    - [K2] A large Krastorio 2 compatibility update by Trex, Earendel, and Raiguard.
+    - [K2] If playing with Krastorio 2 the minimum version is now 1.2.6
+    - [K2] Intergalactic Transceiver win disabled.
+    - [K2 Advanced] Move the Advanced Tech Card to be unlocked by the four Space Science 3s.
+    - [K2 Advanced] Replace Big Electric Motor with Bioscrubber in the Advanced Tech Card recipe.
+    - [K2 Advanced] Add Pylon, Space Platform Plating to the Advanced Tech Card recipe.
+    - [K2 Advanced] Move Improved Pollution Filter tech to be unlocked by the Advanced Tech Card.
+    - [K2 Advanced] Add Advanced Tech Card as a requirement for the Shield Projector tech.
+    - [K2 Advanced] Add Advanced Tech Card as a requirement for the Radar Construction Pylon.
+    - [K2 Advanced] Move the Electric Miner Mk3 to be unlocked by the Advanced Tech Card and Energy Science Pack 4.
+    - [K2 Advanced] Increase the stats of the Electric Miner Mk3 to act as an upgrade to the Big Mining Drill.
+    - [K2 Advanced] Increase the cost of the Electric Miner Mk3 to be proportional to the new stats of the miner.
+    - [K2 Matter] Remove Matter Tech Card as a requirement for the Advanced Pickaxe tech.
+    - [K2 Matter] Move the Matter Tech Card to be unlocked by the Matter Fabricator tech.
+    - [K2 Matter] Move Matter Processing Tech to be unlocked by the Naquium Tesseract tech.
+    - [K2 Matter] Remove Matter Tech Card as a requirement for the Energy Storage tech.
+    - [K2 Matter] Add Matter Tech Card to the cost of the following technologies: Nanomaterial, Adaptive Armour 5, High Temperature Heat Exchanger, High Temperature Turbine Generator, Matter Fusion, Antimatter Production, Antimatter Reactor, Antimatter Engine, Spaceship Victory, Naquium Processing, Naquium Cube, Flat Solar Panel 3, Naquium Accumulator, Naquium Tesseract, Naquium Processor, Lifesupport Equipment 4, Thruster Suit 4, Nexus, Spaceship Structural Integrity 7, Factory Spaceship.
+    - [K2 Singularity] Add Singularity Tech Card as a requirement for the Teleportation tech.
+    - [K2 Singularity] Add Teleportation tech as a requirement for the Planetary Teleporter tech.
+    - [K2 Singularity] Bring Planetary Teleporter recipe inline with Arcolink Chest recipe, no arcospheres due to Planetary Teleporters restriction to same-surface Teleportation.
+    - [K2 Singularity] Move the Singularity Tech Card to be unlocked by Deep Space Science Pack 3 tech.
+    - [K2 Singularity] Alter the cost of Singularity Tech Card to be in line with the cost for Deep Space Science Pack 4.
+    - [K2 Singularity] Add an alternative Singularity Tech Card recipe.
+    - [K2 Singularity] Include the Singularity Tech Card recipes in the automatic switching mechanism present with arcosphere recipes.
+    - [K2 Singularity] Significantly increase the properties of the Singularity Lab relative to the Space Science Laboratory.
+    - [K2 Singularity] Move the Singularity Lab to be unlocked by Deep Space Science Pack 3 tech.
+    - [K2 Singularity] Significantly increase the cost of the Singularity Lab recipe.
+    - [K2 Material] Add Imersium Processing, Material Science Pack 1 as a requirement for the Logistics 4 tech.
+    - [K2 Material] Replace Steel Gear Wheel with Imersium Gear Wheel in the Advanced Splitter and Advanced Transport Belt recipes.
+    - [K2 Material] Remove Advanced Tech Card as a requirement for the Logistics 5 tech.
+    - [K2 Material] Add Material Science Pack 2, Optimization Tech Card as a requirement for the Logistics 5 tech.
+    - [K2 Material] Add Heavy Bearing to the Superior Splitter and Superior Transport Belt recipes.
+    - [K2 Material] Add Rare Metal to the Heavy Composite recipe.
+    - [K2 Material] Add Imersite Beam to the Heavy Assembly recipe.
+    - [K2 Material] Replace Copper Plate with Rare Metals in the Experimental Alloys Data recipe.
+    - [K2 Material] Add a new Data Storage Substrate recipe, requiring Rare Metals, gated behind Material Science Pack 1.
+    - [K2 Energy] Add Imersite Crystal to the Dynamic Emitter recipe.
+    - [K2 Energy] Add Rare Metals to Magnetic Monopole Data and Electromagnetic Field Data recipes.
+    - [K2 Energy] Move Fusion Energy Tech to be unlocked by Energy Science Pack 3.
+    - [K2 Energy] Rebalance the output of the Fusion Reactor to produce more Steam.
+    - [K2 Energy] Adjust the Advanced Turbine to consume the new output of the Fusion Reactor.
+    - [K2 Biological] Add Lithium Chloride to the Genetic Data recipe.
+    - [K2 Rocket] Replace Copper with Rare Metals in the Ion Stream recipe.
+    - [K2 Rocket] Replace Stone with Lithium in the Plasma Stream recipe.
+    - [K2 Rocket] Replace Stone with Rare Metal in the Material Testing Pack recipe.
+    - [K2 Rocket] Add Imersite Crystal to the Material Testing Pack recipe.
+    - [K2 Equipment] Correct the ordering of certain equipment so that they follow a logical progression.
+    - [K2 Equipment] Unified the look of the Energy Shield equipment.
+    - [K2 Equipment] Adjust the prerequisites of Power Armor Mk3 and Power Armor Mk4.
+    - [K2 Equipment] Adjust the cost of Power Armor Mk4.
+    - [K2 Equipment] Add Advanced Tech Card as a requirement for the Thruster Suit 3 tech.
+    - [K2 Equipment] Adjust the cost of Thruster Suit 3 and Thruster Suit 4 to include K2 items.
+    - [K2 Equipment] Add Lithium-Sulfur Battery to the Adaptive Armour 3 recipe.
+    - [K2 Equipment] Replace Steel Plate with Imersium Plate in the Adaptive Armor 4 recipe.
+    - [K2 Equipment] Add Advanced Tech Card as a requirement for Adaptive Armor 5 tech.
+    - [K2 Equipment] Replace Steel Plate with Imersium Plate in the Adaptive Armor 5 recipe.
+    - [K2 Equipment] Add Energy Control Unit to the Adaptive Armor 5 recipe.
+    - [K2 Equipment] Replace Battery with Lithium-Sulfur Battery in the Tesla Gun Ammo recipe.
+    - [K2 Equipment] Replace Advanced Circuit with Processing Unit in the Advanced Exoskeleton recipe.
+    - [K2 Equipment] Replace Speed Module 2 with Speed Module 3 in the Advanced Exoskeleton recipe.
+    - [K2 Equipment] Add Lubricant to the Advanced Exoskeleton recipe.
+    - [K2 Equipment] Replace AI Core with Aeroframe Scaffold in the Superior Exoskeleton recipe.
+    - [K2 Equipment] Replace Speed Module 3 with Speed Module 5 in the Superior Exoskeleton recipe.
+    - [K2 Equipment] Add Heavy Bearing, Processing Unit to the Superior Exoskeleton recipe.
+    - [K2 Equipment] Allow Space Platform Scaffold and Space Platform Plating to be removed by the K2 Jackhammer tool.
+    - [K2 Miscellaneous] Add Material Science Pack 2, Energy Science Pack 2, Optimization Tech Card as a requirement for the Superior Inserter tech.
+    - [K2 Miscellaneous] Increased the Advanced Lab speed and module slots.
+    - [K2 Miscellaneous] Add Silicon to the Data Storage Substrate recipe.
+    - [K2 Miscellaneous] Add Raw Rare Metal as a possible output of Scrap Recycling.
+    - [K2 Miscellaneous] Add Optimization Tech Card as a requirement for the Advanced Pickaxe tech.
+    - [K2 Miscellaneous] Replace Battery with Lithium-Sulfur Battery in the Shield Projector recipe.
+    - [K2 Miscellaneous] Add Energy Control Unit to the Holmium Accumulator recipe.
+    - [K2 Miscellaneous] Remove Effect Transmission tech as a requirement for the Planetary Teleporter tech.
+    - [K2 Miscellaneous] Add Quarry Mineral Extraction as a prerequisite to Energy Control Unit tech.
+    - [K2 Miscellaneous] Add Energy Catalogue 1 to the Advanced Beacon recipe.
+    - [K2 Miscellaneous] Add Energy Control Unit and Imersium Plate to the Wide Area Beacon recipe.
+    - [K2 Miscellaneous] Add Naquium Accumulator tech as a requirement for the Energy Storage tech.
+    - [K2 Miscellaneous] Add Naquium Processor tech as a requirement for the Energy Storage tech.
+    - [K2 Miscellaneous] Add Astronomic Science Pack 4, Energy Science Pack 4, Material Science Pack 4 and Deep Space Science 3 to the cost of the Energy Storage tech.
+    - [K2 Miscellaneous] Significantly increase the cost of the Energy Storage recipe.
+    - [K2 Miscellaneous] Significantly improve the accumulator properties of the Energy Storage entity.
+    - [K2 Miscellaneous] Allow Advanced Solar Panel to upgrade to the Flat Solar Panel.
+    - [K2 Miscellaneous] Replace Solar Panel with Advanced Solar Panel in the Flat Solar Panel recipe.
+    - [K2 Miscellaneous] Replace Battery with Lithium-Sulfur Battery in the Pylon Substation, Construction Pylon and Radar Construction Pylon.
+    - [K2 Miscellaneous] Move the AI Core tech to be unlocked by Energy Science Pack 3 and Biological Science Pack 3.
+    - [K2 Miscellaneous] Replace Nitric Acid with Vitalic reagent in the AI Core recipe.
+    - [K2 Miscellaneous] Replace Processing Unit with Quantum Processor in the AI Core recipe.
+    - [K2 Miscellaneous] Add Advanced Neural Gel and Bioelectrics Data to the AI Core recipe.
+    - [K2 Miscellaneous] Move the Advanced Research Server tech to be unlocked by the AI Core tech.
+    - [K2 Miscellaneous] Add the Advanced Research Server tech as a requirement for the Advanced Tech Card and Matter Tech Card tech.
+    - [K2 Miscellaneous] Replace Advanced Neural Gel and Bioelectrics Data with AI Cores in the Neural Supercomputer recipe.
+    - [K2 Miscellaneous] Replace Quantum Processor with AI Core in the Dimensional Anchor recipe.
+    - [K2 Miscellaneous] Replace Quantum Processor with AI Core in the Naquium Processor recipes.
+    - [K2 Miscellaneous] Replace Sulfuric Acid with Nitric Acid in Vitalic Acid recipe.
+    - [K2 Miscellaneous] Add Lithium Chloride to Vitalic Reagent recipe.
+    - [K2 Miscellaneous] Add Imersium Plate Aeroframe scaffold recipe.
+    - [K2 Miscellaneous] Add Fertilizer to Nutrient gel recipes.
+    - [K2 Miscellaneous] Replace Holmium Plate with Rare Metals in Holmium solenoid recipe.
+    - [K2 Miscellaneous] Add Imersite Crystals to Quantum processor and Dynamic Emitter recipes.
+    - [K2 Miscellaneous] Rebalance Artillery Shell Shooting Speed techs.
+    - [K2 Miscellaneous] Rebalance Artillery Shell Range techs.
+    - [K2 Miscellaneous] Rebalance Energy Weapons Damage techs.
+    - [K2 Miscellaneous] Rebalance Mining Productivity techs.
+    - [K2 Miscellaneous] Rebalance Worker Robots Speed techs.
+    - [K2 Miscellaneous] Rebalance Physical Projectile Damage techs.
+    - [K2 Miscellaneous] Rebalance Refined Flammables techs.
+    - [K2 Miscellaneous] Rebalance Stronger Explosives techs.
+    - [K2 Miscellaneous] Rebalance Follower Robot Count techs.
+    - [K2 Miscellaneous] Rebalance Spaceship Structural Integrity and Factory Spaceship techs.
+    - [K2 Miscellaneous] Replace Sulfuric Acid with Nitric Acid in the Anion Ion Exchange Beads recipe.
+    - [K2 Miscellaneous] Add Ion Exchange Beads to the Advanced Pollution Filter recipe.
+    - [K2 Miscellaneous] Replace Battery with Lithium-Sulfur Battery in the Magnetic Canister recipe.
+    - [K2 Miscellaneous] Add Rare Metal to the Magnetic Canister Recipe.
+    - [K2 Miscellaneous] Add Heavy Composite and Aeroframe Scaffold to the Large Roboport and Small Roboport recipes.
+    - [K2 Miscellaneous] Update Rocket fuel energy and stack size to vanilla values.
+    - [K2 Miscellaneous] All Rocket fuel recipes are standardised to require iron plate (K2) and not yield substantially more energy than went in (SE).
+    - [K2 Miscellaneous] Gave the K2 Fuel refinery the same stats as the SE Fuel refinery, but 3x3 instead of 5x5.
+    - [K2 Miscellaneous] Remove the Hydrogen recipe for Atmospheric condenser, use Electrolysis to get Hydrogen.
+    - [K2 Miscellaneous] Electrolysis plant can be used in space and has increased energy usage.
+    - [K2 Miscellaneous] Adjust Oxygen and Nitrogen production via the Atmospheric Condenser.
+    - [K2 Miscellaneous] Adjust Chlorine and Hydrogen production via Electrolysis.
+    - [K2 Miscellaneous] Adjust Oxygen and Hydrogen production via Electrolysis.
+    - [K2 Miscellaneous] Adjust consumption of Oxygen and Hydrogen in Vulcanite Rocket Fuel recipe.
+    - [K2 Miscellaneous] Rebalance the cost of the Advanced Roboport and Superior Robot Battery techs.
+    - [K2 Miscellaneous] Add Dirty Iridium-Holomite Water that can be filtered for Iridium and Holmium.
+    - [K2 Miscellaneous] Add Dirty Iridium-Holomite Water as a byproduct of Iridium and Holmium Washing.
+    - [K2 Miscellaneous] Add Filtration Plant recipes for Iridium and Holmium.
+    - [K2 Miscellaneous] Reduce the amount of Water output by Iron, Copper and Rare Metal filtration.
+    - [K2 Miscellaneous] Reduce the amount of Heavy Oil produced by Coal Liquefaction.
+    - [K2 Miscellaneous] Reduce the amount of Uranium 238 produced by Fuel Cell Reprocessing.
+    - [K2 Miscellaneous] Adjust ordering of Advanced Assembler, Advanced Chemical Plant, Advanced Solar Panel, Big Mining Drill and Energy Storage recipes.
+    - [K2 + Shield Projector] Replace Battery with Lithium-Sulfur Battery in the Shield Projector recipe when Krastorio 2 is enabled.
+    - [K2 + AAI Industries] Adjusted all Inserter recipes to combine AAI Industries and Krastorio 2 recipes when Krastorio 2 is enabled.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.26
+Date: 13. 11. 2021
+  Changes:
+    - Sets all tiles to not destroy entities above if the tile changes. Requires Factorio 1.1.50 or higher to take effect.
+
+  Bugfixes:
+    - Fixed postprocess code for space science removal if a rare but valid recipe prototype format is used by another mod.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.25
+Date: 13. 11. 2021
+  Changes:
+    - Added a new collision mask to planet-specific tiles for faster map fixing.
+
+  Locale:
+    - Added Turkish translation thanks to superbnoobster.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.24
+Date: 10. 08. 2021
+  Locale:
+    - Added Spanish translation thanks to SpiderLove.
+    - Added Japanese translation thanks to kyon1207.
+    - Updated Russian translation thanks to Shadow_Man.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.23
+Date: 07. 08. 2021
+  Locale:
+    - Updated condenser turbine description.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.22
+Date: 01. 07. 2021
+  Locale:
+    - Added Brazilian Portuguese translation thanks to vagner1000.
+    - Added Chinese translation thanks to Mumu.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.21
+Date: 27. 06. 2021
+  Bugfixes:
+    - Fixed factory spaceship collision.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.20
+Date: 22. 06. 2021
+  Compatibility:
+    - Improved compatibility with bztungsten.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.19
+Date: 19. 06. 2021
+  Changes:
+    - Updated load diagnostic to match latest SE version.
+
+  Locale:
+    - Updated Russian translation thanks to Shadow_Man.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.18
+Date: 09. 06. 2021
+  Compatibility:
+    - Rocket fuel energy per stack is now locked to vanilla values as it needs to be consistent for an upcoming update.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.17
+Date: 06. 06. 2021
+  Changes:
+    - Tech tree is streamlined to reduce visual clutter.
+
+  Bugfixes:
+    - Improved Condenser turbine and High temperature turbine descriptions (thanks to Mernom).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.16
+Date: 16. 05. 2021
+  Bugfixes:
+    - Fixed Russian translation accidentally on English versions/missing Russian translation of certain entities.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.15
+Date: 14. 05. 2021
+  Locale:
+    - Updated Russian translation thanks to Shadow_Man.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.14
+Date: 09. 05. 2021
+  Bugfixes:
+    - Prevents machine level productivity for recipes that can't have productivity.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.13
+Date: 08. 05. 2021
+  Changes:
+    - Medpacks can now heal friends (Requires Space Exploration 0.5.51+).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.12
+Date: 13. 04. 2021
+  Changes:
+    - Postprocess can now load without Space Exploration being installed so that it can also act as a diagnostic tool. If Space Exploration does not load due to an incompatibility that reason should be in the log file under "Space Exploration diagnostics".
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.11
+Date: 12. 02. 2021
+  Compatibility:
+    - Krastorio 2: Updates for changes in K2 icon sizes.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.10
+Date: 21. 01. 2021
+  Bugfixes:
+    - Hotfix for previous version.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.9
+Date: 21. 01. 2021
+  Compatibility:
+    - Improved handling for space science pack removal (thanks to Mernom).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.8
+Date: 04. 01. 2021
+  Compatibility:
+    - Krastorio 2: Changed for updated K2 API.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.7
+Date: 29. 12. 2020
+  Compatibility:
+    - Krastorio 2: Fixed some matter processing locales.
+    - Krastorio 2: Blocked Intergalactic tranciever from spaceship.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.6
+Date: 11. 12. 2020
+  Changes:
+    - Updated integrity checks to match Space Exploration 0.5.22.
+
+  Compatibility:
+    - Krastorio 2: Split imersium weapons from military 5.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.5
+Date: 07. 12. 2020
+  Bugfixes:
+    - Fixed issue with k2 compatibility if spidertron fuel use was removed.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.4
+Date: 06. 12. 2020
+  Compatibility:
+    - Krastorio 2: Improved the holmium-based processing unit recipe.
+    - Krastorio 2: Advanced furnace has an extra module slot at the cost of some base speed (a buff assuming you care about productivity).
+    - Krastorio 2: Fixed issues with energy shield equipment techs.
+    - Krastorio 2: Spidertron accepts multiple fuel types (so can be used when unlocked).
+    - Krastorio 2: Nerfed non-loop biosludge production. Fish, wood and biomatter are only intended to kickstart the system.
+    - Krastorio 2: Fixed mining productivity science pack progression.
+    - Krastorio 2: Fixed worker robot speed science pack progression.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 30. 11. 2020
+  Changes:
+    - Updates for Space Exploration 0.5.10.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 30. 11. 2020
+  Changes:
+    - Cleaning up collision mask settings.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 24. 11. 2020
+  Info:
+    - Updated for Factorio 1.1.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.10
+Date: 08. 11. 2020
+  Bugfixes:
+    - Krastorio 2: Fixed loading issue if K2 radars are disabled by mod settings.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.9
+Date: 07. 11. 2020
+  Compatibility:
+    - Krastorio 2: Made artillery upgrades closer to normal SE progression.
+    - Krastorio 2: Space lab now requires advanced labs instead of electric labs.
+    - Krastorio 2: Fixed spaced fuel refinery description.
+    - Krastorio 2: Moved radar and advanced radar earlier in the tech tree.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.8
+Date: 06. 10. 2020
+  Changes:
+    - Generic condenser turbine compatibility update.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.7
+Date: 06. 10. 2020
+  Changes:
+    - Updated for condenser turbine changes.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+Date: 29. 09. 2020
+  Changes:
+    - Part of the module change code is now in postprocess.
+
+  Compatibility:
+    - Krastorio 2: Moved AAI Industry specific fixes to the AAI Industry mod. (It is now possible do those changes there due to a K2 update.)
+    - Krastorio 2: Added new recipe for biosludge from biomatter.
+    - Krastorio 2: Renamed K2 biomass to biomatter to avoid confusion with SE biomass.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+Date: 29. 09. 2020
+  Compatibility:
+    - Krastorio 2: Fixed burner lab was prevented from using processed fuel.
+    - Krastorio 2: Science packs / Cards (except the basic card) cannot be made by hand.
+    - Krastorio 2: Tweaked wood circuit recipe.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 25. 09. 2020
+  Changes:
+    - Updated minimum SE version to 0.4.14 (recent versions were also incompatible with earlier versions).
+
+  Compatibility:
+    - Krastorio 2: Fixed electronic circuit crafting time (wood version).
+    - Krastorio 2: Gas power station is restricted to land, isothermic generator restricted to space. They now have the same efficiency.
+    - Krastorio 2: The first aid kit is now the first stage of the medpack upgrade line and is unlocked from the start of the game.
+    - Krastorio 2: Moved advanced radar tech to Astro T1.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 17. 09. 2020
+  Compatibility:
+    - Krastorio 2: Updated for the DSS changes.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 17. 09. 2020
+  Changes:
+    - Updated ordering for rocket silos.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 12. 09. 2020
+  Info:
+    - The DSS Update (Deep Space Science overhaul)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.25
+Date: 16. 09. 2020
+  Bugfixes:
+    - Fixed crash on boot relating to the burner turbine fuel categories in some mod configurations.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.24
+Date: 16. 09. 2020
+  Info:
+    - Set minimum Factorio version to 1.0.0.
+
+  Bugfixes:
+    - Fixed that some sanity checks were not being applied properly (prevents positive power loops).
+    - Applied PeterHan5's fixes for K2 core fragments.
+
+  Compatibility:
+    - Krastorio 2: Moved optimization tech card crafting recipe to the research server.
+    - Nerfed wood recipe (K2 greenhouses made it too good vs the stone tablet recipe).
+    - Fixed processed fuel was not able to go into burner turbine generator due to K2 fuel category change.
+    - Tweaked some power density settings (most relevant for spaceships).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.23
+Date: 11. 09. 2020
+  Locale:
+    - Czech translations thansk to xXmirechekXx.
+
+  Compatibility:
+    - Krastorio 2: Removed AI core prerequisite from Spidetron tech.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.22
+Date: 15. 08. 2020
+  Bugfixes:
+    - Added space layer mask to triggers that change tiles (stop nukes making land in space.).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.21
+Date: 30. 06. 2020
+  Compatibility:
+    - Krastorio 2: Moved laser artillery from Energy tier 4 to Energy tier 2 and updated recipe from dynamic emitter to holmium solenoid.
+    - Krastorio 2: Increased cost of matter dematerialisation. (Coincides with adding ability to turn sand into matter.)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.20
+Date: 17. 06. 2020
+  Changes:
+    - Changed the way that resource regeneration after mod changes works, prevents resources respawning where they shouldn't.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.19
+Date: 10. 06. 2020
+  Bugfixes:
+    - Krastorio 2: Fixed that the spaced version of fuel refinery was missing a crafting category.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.18
+Date: 10. 06. 2020
+  Compatibility:
+    - Krastorio 2: Moved personal power armor mk3 and laser defense mk3 earlier in the tech tree.
+    - Krastorio 2: Redistributed beacons. Singularity beacon is called Advanced beacon and is earlier in the tech tree. Wide area beacons are pushed back in the tree.
+    - Krastorio 2: Changed optimization data recipe and moved to after rocket science.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+Date: 09. 06. 2020
+  Changes:
+    - Fix for Condenser Turbine + Krastorio 2's steam temperature change (Thanks to Soggs).
+    - Better support for the Krastorio 2 + Space Exploration Optional Tweaks mod.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+Date: 09. 06. 2020
+  Changes:
+    - A few tier-approprate recipe changes.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+Date: 06. 06. 2020
+  Changes:
+    - Started on more specific Krastorio 2 compatibility changes, moving certain 'advanced' things earlier in the tech tree. (Still a work in progress).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+Date: 05. 06. 2020
+  Changes:
+    - Krastorio 2 singularity beacon now has 10 slots instead of 9.
+    - Added more mods to the load-before list (in preparation for more compatibility work).
+    - Changed the optimization data recipe.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+Date: 01. 06. 2020
+  Bugfixes:
+    - Re-enabled waterfill (requires space-exploration >= 0.3.71).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 01. 06. 2020
+  Compatibility:
+    - Fixed issue with a Krastorio 2 fallback recipe.
+
+  Bugfixes:
+    - Waterfill is temporarily disabled until I find a solution to a certain problem it causes (relates to secret exploration content).
+
+  Changes:
+    - Nerfed Fish. (Coincides with simpler medpack recipe) and lower tech requirement.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 31. 05. 2020
+  Bugfixes:
+    - Fix for space science being enabled by compression recipes.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 29. 05. 2020
+  Bugfixes:
+    - Fix for space science being enabled by stacking recipes.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.9
+Date: 23. 05. 2020
+  Changes:
+    - Code for the new space science pack replace option.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.8
+Date: 18. 05. 2020
+  Bugfixes:
+    - Fixed optional space science pack (optimisation science pack) recipe (the other one - there are 2) not being added to the technology.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 17. 05. 2020
+  Bugfixes:
+    - Fixed optional space science pack (optimisation science pack) recipe not being added to the technology.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 16. 05. 2020
+  Changes:
+    - Code that handle Space Exploration's removal of space science pack (if unused).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 15. 05. 2020
+  Changes:
+    - Added some prelimiary integrity checks for critical parts of the tech tree. If other mods break certain areas it can permanently mess up your game saves before your realise anything is wrong. The new code displays a warning if a cirical problem is found.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 13. 05. 2020
+  Compatibility:
+    - Drastically buffed Krastorio2's Singularity beacon to fit with beacon changes. It has a niche for high transmission effectiveness.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 09. 04. 2020
+  Changes:
+    - Applied some safetly net code to limit how messed up the tech tree can get due to other mods.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 09. 04. 2020
+  Changes:
+    - Use new tiered science packs.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 26. 02. 2020
+  Info:
+    - Updated for Space Exploration 0.3.1
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 30. 01. 2020
+  Changes:
+    - Added compatibility for Krastorio 2 (by Linver).
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 28. 01. 2020
+  Bugfixes:
+    - Fixed a conditional icon path.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 28. 01. 2020
+  Info:
+    - Updated for Factorio 0.18.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.144
+Date: 24. 11. 2019
+  Changes:
+    - Added a collision layer to all rails to add support for cargo ships and similar mods.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.43
+Date: 22. 09. 2019
+  Bugfixes:
+    - Fix issue caused by having bobs enemies installed but not bobs library.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.41
+Date: 30. 07. 2019
+  Bugfixes:
+    - Fixed icon scaling issue.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.40
+Date: 26. 07. 2019
+  Bugfixes:
+    - Fixed compatibility issue with bobs-angels rocket fuel.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.39
+Date: 24. 07. 2019
+  Changes:
+    - Updated science pack icons to 64x64px
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.38
+  Changes:
+    - QOL research support thanks to Dullahan.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.37
+  Changes:
+    - Made optional dependencies that are not recommendations invisible.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.36
+  Changes:
+    - Fixed another tech loop with bobs tech.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.35
+  Changes:
+    - Update to teleportation tech
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.34
+  Changes:
+    - Fixed another tech loop with bobs tech.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.33
+  Changes:
+    - Bob's Warfare and alien research patch thanks to Dullahan
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.32
+  Info:
+    - Changes for Factorio 0.17.35
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.31
+  Bugfixes:
+    - Fixed tech loop with angels refining.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.30
+  Changes:
+    - Changed power armor tech distribution.
+    - Bootstrap compatibility for Portals, Teleporters, Darkstar_utilities, and NPUtils
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.29
+  Info:
+    - Moved most compatibility fixes into a separate file so that Space Exploration can be a dependency of other mods, but other mods can be specified in the postprocess without causing a dependency loop. Allows better control over mod load order so compatibility patches work as expected.
+  Bugfixes:
+    - Fixed an issue with low density structure tech with bobs-angels.

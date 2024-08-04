@@ -161,11 +161,14 @@ end
 
 -- modify tier 3 logistics and tier 3 automation to unlock after rocket science instead of utility science
 -- this keeps the progression of vanilla where they unlock after getting the next science pack after blue/chem
+-- tag: rebalance
 do
-  data.raw.technology["automation-3"].prerequisites = {data_util.mod_prefix .. "space-assembling", "space-science-pack"}
+  -- data.raw.technology["automation-3"].prerequisites = {data_util.mod_prefix .. "space-assembling", "space-science-pack"}
   data_util.tech_remove_prerequisites("automation-3", {"production-science-pack"})
   data_util.tech_remove_ingredients("automation-3", {"utility-science-pack", "production-science-pack"})
-  data_util.tech_add_ingredients("automation-3", {"space-science-pack"})
+  -- data_util.tech_add_ingredients("automation-3", {"space-science-pack"})
+  data_util.tech_add_prerequisites("automation-3", { data_util.mod_prefix .. "rocket-science-pack" })
+  data_util.tech_add_ingredients("automation-3", { data_util.mod_prefix .. "rocket-science-pack" }, true)
 
   data.raw.technology["logistics-3"].prerequisites = {data_util.mod_prefix .. "space-belt", "space-science-pack"}
   data_util.tech_remove_prerequisites("logistics-3", {"production-science-pack"})
