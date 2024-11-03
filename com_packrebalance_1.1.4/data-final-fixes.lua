@@ -3,15 +3,15 @@ data.raw.car["tank"].max_health = 5000
 data.raw.gun["tank-cannon"].attack_parameters.range = 60
 
 -- Rebalance some turrets
-data.raw.turret["gun-ammo-turret-rampant-arsenal"].attack_parameters.range = 50
-data.raw.turret["cannon-ammo-turret-rampant-arsenal"].attack_parameters.range = 150
-data.raw.turret["cannon-ammo-turret-rampant-arsenal"].attack_parameters.turn_range = 1.0
-data.raw.turret["rapid-cannon-ammo-turret-rampant-arsenal"].attack_parameters.range = 98
-data.raw.turret["rapid-cannon-ammo-turret-rampant-arsenal"].attack_parameters.turn_range = 1.0
-data.raw.turret["lightning-electric-turret-rampant-arsenal"].attack_parameters.range = 40
-data.raw.turret["lightning-electric-turret-rampant-arsenal"].attack_parameters.turn_range = 1.0
-data.raw.turret["kr-railgun-turret"].attack_parameters.range = 112
-data.raw.turret["kr-rocket-turret"].attack_parameters.turn_range = 1.0
+data.raw["ammo-turret"]["gun-ammo-turret-rampant-arsenal"].attack_parameters.range = 50
+data.raw["ammo-turret"]["cannon-ammo-turret-rampant-arsenal"].attack_parameters.range = 150
+data.raw["ammo-turret"]["cannon-ammo-turret-rampant-arsenal"].attack_parameters.turn_range = 1.0
+data.raw["ammo-turret"]["rapid-cannon-ammo-turret-rampant-arsenal"].attack_parameters.range = 98
+data.raw["ammo-turret"]["rapid-cannon-ammo-turret-rampant-arsenal"].attack_parameters.turn_range = 1.0
+data.raw["electric-turret"]["lightning-electric-turret-rampant-arsenal"].attack_parameters.range = 36
+data.raw["electric-turret"]["lightning-electric-turret-rampant-arsenal"].attack_parameters.turn_range = 1.0
+data.raw["ammo-turret"]["kr-railgun-turret"].attack_parameters.range = 112
+data.raw["ammo-turret"]["kr-rocket-turret"].attack_parameters.turn_range = 1.0
 
 -- Add custom HE mortar bomb
 if data.raw.technology["ironclad"] then
