@@ -1,0 +1,5 @@
+require("prototypes.recipe")
+require("prototypes.ammo")
+require("prototypes.kj_technology_upgrades")
+require("prototypes.kr_technology_upgrades")
+require("prototypes.equipment_vehicle")

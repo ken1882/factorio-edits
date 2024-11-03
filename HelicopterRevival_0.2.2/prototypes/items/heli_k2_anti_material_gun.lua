@@ -34,7 +34,7 @@ data:extend({
 		type = "projectile",
 		ammo_category = "anti-material-rifle-ammo",
 		movement_slow_down_factor = 1.2,
-		cooldown = 15,
+		cooldown = 12,
 		damage_modifier = settings.startup["heli-k2-anti-material-gun-damage-modifier"].value,
 		projectile_creation_distance = 0.6,
 		range = settings.startup["heli-k2-anti-material-gun-range"].value,

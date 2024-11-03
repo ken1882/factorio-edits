@@ -1,8 +1,46 @@
+local gun_icon = "__base__/graphics/icons/submachine-gun.png"
+local gun_sound = {
+  {
+    filename = "__base__/sound/fight/tank-cannon.ogg",
+    volume = 0.45
+  }
+}
+
+if mods["RampantArsenal"] then
+  gun_icon = "__RampantArsenal__/graphics/icons/minigun.png"
+end
+
+if mods["kj_phalanx"] then
+  gun_sound = {
+    {
+      filename = "__kj_phalanx__/sounds/minigun_1.ogg",
+      volume = 0.3
+    },
+    {
+      filename = "__kj_phalanx__/sounds/minigun_2.ogg",
+      volume = 0.3
+    },
+    {
+      filename = "__kj_phalanx__/sounds/minigun_3.ogg",
+      volume = 0.3
+    },
+    {
+      filename = "__kj_phalanx__/sounds/minigun_4.ogg",
+      volume = 0.3
+    },
+    {
+      filename = "__kj_phalanx__/sounds/minigun_5.ogg",
+      volume = 0.3
+    },
+  }
+end
+
 data:extend({
     {
         type = "gun",
         name = "heli-gun",
-        icon = "__base__/graphics/icons/submachine-gun.png",
+        -- icon = "__base__/graphics/icons/submachine-gun.png",
+        icon = gun_icon,
         icon_size = 64,
         flags = {"hidden"},
         subgroup = "gun",
@@ -11,7 +49,7 @@ data:extend({
         {
           type = "projectile",
           ammo_category = "bullet",
-          cooldown = 4,
+          cooldown = 3,
           damage_modifier = settings.startup["heli-gun-damage-modifier"].value,
           movement_slow_down_factor = 0.7,
           shell_particle =
@@ -28,13 +66,14 @@ data:extend({
           projectile_center = {-0.15625, -0.07812},
           projectile_creation_distance = 1,
           range = settings.startup["heli-gun-range"].value,
-          sound =
-          {
-            {
-              filename = "__base__/sound/fight/tank-cannon.ogg",
-              volume = 0.45
-            }
-          },
+          -- sound =
+          -- {
+          --   {
+          --     filename = "__base__/sound/fight/tank-cannon.ogg",
+          --     volume = 0.45
+          --   }
+          -- },
+          sound = gun_sound,
         },
         stack_size = 1
     }

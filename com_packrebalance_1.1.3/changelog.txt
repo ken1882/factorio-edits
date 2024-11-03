@@ -1,0 +1,33 @@
+Version: 1.1.4
+Date: 11.03.2024
+  Changes:
+    - Rebalance some mid-late game turrets
+
+Version: 1.1.3
+Date: 08.29.2024
+  Changes:
+    - Added equipment support for cargoships
+
+Version: 1.1.2
+Date: 08.29.2024
+  Changes:
+    - Fix KJ plane fuel drop after take off
+    - Make rattle tank accessible earlier
+    - Deep sea oil won't decrease yields
+    - Doubled oil rig work speed
+    - Fixes missing weapon upgrades caused by Rampant Arsenal
+
+Version: 1.1.1
+Date: 08.23.2024
+  Changes:
+    - Change thumbnail
+
+Version: 1.1.0
+Date: 08.04.2024
+  Changes:
+    - Fix automation 3 and 4 research cost
+
+Version: 1.0.0
+Date: 06.01.2024
+  Changes:
+    - Initial Release
